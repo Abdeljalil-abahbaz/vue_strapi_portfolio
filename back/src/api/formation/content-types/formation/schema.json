@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formations",
+  "info": {
+    "singularName": "formation",
+    "pluralName": "formations",
+    "displayName": "Formation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date_start": {
+      "type": "date"
+    },
+    "date_end": {
+      "type": "date"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "location": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
