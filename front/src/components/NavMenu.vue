@@ -18,6 +18,8 @@
                         <li><a href="#home" @click="scrollToSection('#home',$event)">Home</a></li>
                         <li><a href="#about" @click="scrollToSection('#about',$event)">About</a></li>
                         <li><a href="#skills" @click="scrollToSection('#skills',$event)">Skills</a></li>
+                        <li><a href="#experiences" @click="scrollToSection('#experiences',$event)">Experiences</a></li>
+                        <li><a href="#formations" @click="scrollToSection('#formations',$event)">Formations</a></li>
                     </ul>
                 </nav>
             </li>
@@ -35,7 +37,6 @@
 </template>
 <script>
 import StyledNav from './StyledComponents/StyledNav'
-import { scrollTo, scrollToElement } from 'vue-scrollto';
 export default {
     data(){
         return {
@@ -55,7 +56,7 @@ export default {
         scrollToSection(selector, event) {
             event.preventDefault(); // Prevent default anchor link behavior
             const element = document.querySelector(selector);
-            
+
             if (element) {
                 element.scrollIntoView({ behavior: 'smooth' });
                 history.pushState({}, '', selector);

@@ -4,7 +4,9 @@ import axios from 'axios';
 export default createStore({
   state: {
     hero: null,
-    skills: []
+    skills: [],
+    experiences: [],
+    formations: []
   },
   mutations: {
     setData(state, payload) {
@@ -25,6 +27,8 @@ export default createStore({
   },
   getters: {
     getHero: state => state.hero,
-    getSkills: state => state.skills
+    getSkills: state => state.skills,
+    getExperiences: state => state.experiences,
+    getFormations: state => state.formations
   }
 });

@@ -5,6 +5,8 @@
         <Home/>
         <About/>
         <Skills/>
+        <Experiences/>
+        <Formations/>
       </div> 
     </StyledApp>  
 </template>
@@ -14,6 +16,8 @@ import NavMenu from './components/NavMenu.vue'
 import Home from './views/Home.vue';
 import About from './views/About.vue';
 import Skills from './views/Skills.vue';
+import Experiences from './views/Experiences.vue';
+import Formations from './views/Formations.vue';
   export default {
     name: 'App',
     mounted(){
@@ -24,7 +28,9 @@ import Skills from './views/Skills.vue';
         try{
           await Promise.all([
               this.$store.dispatch('fetchData' , {params : 'technos?populate=*&sort=percent:asc', action : 'skills'}),
-              this.$store.dispatch('fetchData' , {params : 'hero?populate=*', action : 'hero'})
+              this.$store.dispatch('fetchData' , {params : 'hero?populate=*', action : 'hero'}),
+              this.$store.dispatch('fetchData' , {params : 'experiences?populate=*', action : 'experiences'}),
+              this.$store.dispatch('fetchData' , {params : 'formations?populate=*', action : 'formations'})
             ])
         }catch(error){
           console.error('Error fetching about data:', error);
@@ -36,7 +42,9 @@ import Skills from './views/Skills.vue';
       NavMenu,
       Home,
       About,
-      Skills
+      Skills,
+      Experiences,
+      Formations
     }
   }
 </script>
