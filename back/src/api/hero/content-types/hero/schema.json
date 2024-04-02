@@ -58,6 +58,9 @@
     },
     "driving_licence": {
       "type": "string"
+    },
+    "function": {
+      "type": "string"
     }
   }
 }

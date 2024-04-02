@@ -1,30 +1,50 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+    <StyledApp class='page_container' id='page_container'>
+      <NavMenu/>
+      <div class="content"> 
+        <Home/>
+        <About/>
+        <Skills/>
+      </div> 
+    </StyledApp>  
 </template>
-
+<script>
+import StyledApp from './components/StyledComponents/StyledApp'
+import NavMenu from './components/NavMenu.vue'
+import Home from './views/Home.vue';
+import About from './views/About.vue';
+import Skills from './views/Skills.vue';
+  export default {
+    name: 'App',
+    mounted(){
+      this.getContent()
+    },
+    methods:{
+      async getContent () {
+        try{
+          await Promise.all([
+              this.$store.dispatch('fetchData' , {params : 'technos?populate=*&sort=percent:asc', action : 'skills'}),
+              this.$store.dispatch('fetchData' , {params : 'hero?populate=*', action : 'hero'})
+            ])
+        }catch(error){
+          console.error('Error fetching about data:', error);
+        }
+      }
+    },
+    components:{
+      StyledApp,
+      NavMenu,
+      Home,
+      About,
+      Skills
+    }
+  }
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+*{
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
 }
 </style>
