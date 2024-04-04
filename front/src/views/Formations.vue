@@ -1,12 +1,13 @@
 <template>
     <StyledFormation id="formations">
-        <h1>My education</h1>
+        <PageHeading title="My education" subTitle="School and diplomes" />
         <TimeLine :items="formations" />
     </StyledFormation> 
 </template>
 <script>
 import StyledFormation from '../components/StyledComponents/StyledFormation'
 import TimeLine from '../components/TimeLine.vue'
+import PageHeading from '../components/pageHeading.vue'
 export default {
     data(){
         return {
@@ -23,7 +24,8 @@ export default {
     },
     components:{
         StyledFormation,
-        TimeLine
+        TimeLine,
+        PageHeading
     }
 }
 </script>

@@ -8,20 +8,10 @@ const StyleApp= styled.div`
   
   margin: auto;
   font-family: Georgia, serif;
-  .content{
+  .container{
     height:100vh;
     max-height:100vh;
     overflow:auto;
-
-  }
-  .page_container{
-    
-    overflow-y: auto;
-    padding:20px;
-    @media only screen and (max-width: 913px) {
-      padding:14px;
-    }
-    
   }
   @media only screen and (max-width: 768px) {
     grid-template-columns:100%;

@@ -25,6 +25,20 @@ export interface ComponentsHobby extends Schema.Component {
   };
 }
 
+export interface ComponentsLanguage extends Schema.Component {
+  collectionName: 'components_components_languages';
+  info: {
+    displayName: 'language';
+    icon: 'alien';
+    description: '';
+  };
+  attributes: {
+    title: Attribute.String;
+    percent: Attribute.Integer;
+    color: Attribute.String;
+  };
+}
+
 export interface ComponentsLinks extends Schema.Component {
   collectionName: 'components_components_links';
   info: {
@@ -45,6 +59,7 @@ declare module '@strapi/types' {
     export interface Components {
       'components.contact': ComponentsContact;
       'components.hobby': ComponentsHobby;
+      'components.language': ComponentsLanguage;
       'components.links': ComponentsLinks;
     }
   }

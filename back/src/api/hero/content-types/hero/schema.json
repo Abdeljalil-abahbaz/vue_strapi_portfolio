@@ -61,6 +61,12 @@
     },
     "function": {
       "type": "string"
+    },
+    "language": {
+      "displayName": "language",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.language"
     }
   }
 }

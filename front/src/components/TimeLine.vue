@@ -3,6 +3,7 @@
         <div class="time_line_container">
           <span class="time_line"></span>
           <ul>
+            {{ console.log(data) }}
               <li v-for="item in items" :key="item.id">
                 <div>
                     <h5>{{item.attributes.title}}</h5>

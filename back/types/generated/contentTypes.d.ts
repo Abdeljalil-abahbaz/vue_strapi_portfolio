@@ -888,6 +888,7 @@ export interface ApiHeroHero extends Schema.SingleType {
     hobby: Attribute.Component<'components.hobby', true>;
     driving_licence: Attribute.String;
     function: Attribute.String;
+    language: Attribute.Component<'components.language', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

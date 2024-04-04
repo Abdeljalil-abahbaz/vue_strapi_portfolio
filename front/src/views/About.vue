@@ -1,21 +1,44 @@
 <template>
     <StyledAbout class="text" id="about">
-        <h3><AnimatedTitle title="Get to know me!" /></h3>
-        <p className='text' v-if="aboutData">
-            {{ aboutData }}
-        </p>
+        <PageHeading title="About" subTitle="I am a web developer, and I love it!" />
+        <div class="text-about">
+            <div>
+                <h3><AnimatedTitle title="Passionate web developer" /></h3>
+                <p className='text' v-if="aboutData">
+                    {{ aboutData }}
+                </p>
+            </div>
+            <img src="../assets/coding-pc.png"/>
+            <div>
+                <h3><AnimatedTitle title="Experienced developer" /></h3>
+                <p className='text'>
+                    The experience I have gained through various projects and positions enables me to better understand client expectations and respond precisely to the requested needs within the specific domain of activity.
+                    From simple showcase websites to more complex projects, I offer expertise and web development that aligns with your expectations and requirements.
+                </p>
+            </div>
+        </div>
+        <Shapes :data="ShapesData"/>
     </StyledAbout>
 </template>
    
    <script>
    import StyledAbout from '../components/StyledComponents/StyledAbout'
    import AnimatedTitle from '../components/AnimatedTitle.vue'
+   import PageHeading from '../components/pageHeading.vue'
+   import Shapes from '../components/Shapes.vue'
    export default {
     
         name: 'AboutMe',
         data() {
             return {
-                aboutData: null
+                aboutData: null,
+                ShapesData:[
+                    {title:"ANALYSIS",icon:"fa-solid fa-magnifying-glass-chart"},
+                    {title:"DESIGN",icon:"fa-solid fa-pen-fancy"},
+                    {title:"CODE",icon:"fa-solid fa-code"},
+                    {title:"TESTS",icon:"fa-solid fa-vial-circle-check"},
+                    {title:"DELIVERY",icon:"fa-solid fa-paper-plane"}
+                ]
             };
         },
         watch: {
@@ -28,7 +51,9 @@
         },
         components:{
             StyledAbout,
-            AnimatedTitle
+            AnimatedTitle,
+            PageHeading,
+            Shapes
         }
         
     }

@@ -5,23 +5,32 @@ const AboutStyled = styled.div`
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    width:1100px;
+    margin:auto;
     h3{
-        font-size: 4.3rem;
+        font-size: 23px;
         color:#F1F3CE;
         margin:0;
         .letter.first_letter{
-            font-size:5rem;
+            font-size:3rem;
         }
         
     }
-    p{
-        text-align: justify;
-        font-size: 25px;
-        line-height: 1.6;
-        width: 53%;
+    .text-about{
+        display: flex;
+        flex-direction: row;
+        p{
+            font-size: 19px;
+            line-height: 1.6;
+            padding:20px;
+        }
+        img{
+            height: 300px;
+        }
     }
+    
     @media only screen and (max-width: 913px) {
         width:100%!important;
     }

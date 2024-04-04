@@ -1,30 +1,27 @@
 <template>
-    <StyledChart class="chart_container">
-        <div v-for="(skill) in skills" :key="skill.id" class='chart'>
-            <h3>{{ skill.attributes.title }}</h3>
+    <StyledChart class="chart_container" ref="chart">
+        <h3 class="chart-title"><AnimatedTitle :title="title" /></h3>
+        <div v-for="(item) in items" :key="item.id" class='chart'>
             <div>
-                <div :style="{width: skill.attributes.percent +'%', backgroundColor : skill.attributes.color}"></div>
+                <div class="bg" :data-percent="item.percent || (item.attributes && item.attributes.percent)" :style="{width: '0%', backgroundColor : item.color || (item.attributes && item.attributes.color)}"></div>
+                <h3>{{ item.title || (item.attributes && item.attributes.title) }}</h3>
             </div>
         </div>
     </StyledChart>
 </template>
 <script>
 import StyledChart from './StyledComponents/StyledChart'
+import AnimatedTitle from './AnimatedTitle.vue';
 export default{
-    data(){
-        return{
-            skills:[]
-        }
+    props:{
+        items:Array,
+        title:String
     },
-    watch:{
-        '$store.getters.getSkills':{
-            handler(newVal){
-                this.skills = newVal
-            },
-            immediate : true
-        }
+    methods:{
+        
     },
     components:{
+        AnimatedTitle,
         StyledChart
     }
 }

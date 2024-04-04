@@ -1,12 +1,15 @@
 <template>
     <StyledApp class='page_container' id='page_container'>
       <NavMenu/>
-      <div class="content"> 
-        <Home/>
-        <About/>
-        <Skills/>
-        <Experiences/>
-        <Formations/>
+      <div class="container" @scroll="animateChart"> 
+        <div class="content">
+          <Home/>
+          <About/>
+          <Skills/>
+          <Experiences/>
+          <Formations/>
+        </div>
+        
       </div> 
     </StyledApp>  
 </template>
@@ -20,6 +23,11 @@ import Experiences from './views/Experiences.vue';
 import Formations from './views/Formations.vue';
   export default {
     name: 'App',
+    data(){
+      return {
+        animateChartDone : false
+      }
+    },
     mounted(){
       this.getContent()
     },
@@ -35,7 +43,24 @@ import Formations from './views/Formations.vue';
         }catch(error){
           console.error('Error fetching about data:', error);
         }
-      }
+      },
+      animateChart(){
+            if(this.animateChartDone)return false;
+            var windowHeight = window.innerHeight;
+            const chart = document.querySelector('.skills_chart');
+            const rect = chart.getBoundingClientRect();
+            const isVisible = (rect.top >= 0 && rect.bottom <= windowHeight);
+            // Check if the content is currently in the viewport
+            if (isVisible) {
+                chart.querySelectorAll('.chart').forEach(element => {
+                  const el = element.querySelector('.bg');
+                  console.log(el.getAttribute('data-percent'))
+                  el.style.width = el.getAttribute('data-percent') + '%';
+                });
+                this.animateChartDone = true
+                
+            }
+        }
     },
     components:{
       StyledApp,
@@ -54,5 +79,6 @@ import Formations from './views/Formations.vue';
   padding: 0;
   top:0;
   left:0;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
 }
 </style>
