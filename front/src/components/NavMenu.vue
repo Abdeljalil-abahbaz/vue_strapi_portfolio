@@ -2,12 +2,12 @@
     <StyledNav >
         
         <div class="mobile-menu-icon" :class="{hide : !menuOpen}" @click="setMenuOpen(!menuOpen)">
-            <font-awesome-icon icon="menu" />
+            <i class="fa-solid fa-bars"></i>
         </div>
         
         <ul class="nav-menu" :class="{hide : !menuOpen}">
             <div class="mobile-menu-icon" @click="setMenuOpen(!menuOpen)">
-                <font-awesome-icon icon="xmark" />
+                <i class="fa-solid fa-xmark"></i>
             </div>
             <li class="logo" :class={hide:!menuOpen}>
                 <h3>AB</h3>
@@ -15,11 +15,12 @@
             <li class='nav-items'>
                 <nav>
                     <ul>
-                        <li><a href="#home" @click="scrollToSection('#home',$event)">Home</a></li>
-                        <li><a href="#about" @click="scrollToSection('#about',$event)">About</a></li>
-                        <li><a href="#skills" @click="scrollToSection('#skills',$event)">Skills</a></li>
-                        <li><a href="#experiences" @click="scrollToSection('#experiences',$event)">Experiences</a></li>
-                        <li><a href="#formations" @click="scrollToSection('#formations',$event)">Formations</a></li>
+                        <li><a href="#home" @click="scrollToSection('#home',$event)"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a href="#about" @click="scrollToSection('#about',$event)"><i class="fa-solid fa-address-card"></i> About</a></li>
+                        <li><a href="#skills" @click="scrollToSection('#skills',$event)"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
+                        <li><a href="#experiences" @click="scrollToSection('#experiences',$event)"><i class="fa-solid fa-laptop-code"></i> Experiences</a></li>
+                        <li><a href="#formations" @click="scrollToSection('#formations',$event)"><i class="fa-solid fa-book"></i> Formations</a></li>
+                        <li><a href="#contact" @click="scrollToSection('#contact',$event)"><i class="fa-solid fa-envelope"></i> Contact</a></li>
                     </ul>
                 </nav>
             </li>
@@ -37,38 +38,26 @@
 </template>
 <script>
 import StyledNav from './StyledComponents/StyledNav'
+import {scrollToSection, handlePopstate} from '../globalFunctions'
 export default {
     data(){
         return {
-            menuOpen: true
+            menuOpen: true,
+            scrollToSection:scrollToSection,
+            handlePopstate:handlePopstate
         }
     },
     mounted() {
-        window.addEventListener('popstate', this.handlePopstate);
+        window.addEventListener('popstate', this.handlePopstate());
     },
     beforeUnmount() {
-        window.removeEventListener('popstate', this.handlePopstate);
+        window.removeEventListener('popstate', this.handlePopstate());
     },
     methods:{
         setMenuOpen(isOpen){
             this.menuOpen = isOpen
-        },
-        scrollToSection(selector, event) {
-            event.preventDefault(); // Prevent default anchor link behavior
-            const element = document.querySelector(selector);
-
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-                history.pushState({}, '', selector);
-            }
-        },
-        handlePopstate() {
-            const sectionId = window.location.hash;
-            const element = document.querySelector(sectionId);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            }
         }
+        
     },
     components:{
         StyledNav

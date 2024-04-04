@@ -1,7 +1,7 @@
 import styled from 'vue3-styled-components'
 const StyledNav = styled.div`
 
-    width:140px;
+    width:250px;
     background-color:#012231;
     z-index: 3;
     ul.nav-menu{
@@ -60,6 +60,7 @@ const StyledNav = styled.div`
                 flex: 1;
                 padding:0;
                 li{
+                    padding:10px;
                     
                     a{
                         color:#6c757d;
@@ -68,9 +69,12 @@ const StyledNav = styled.div`
                         text-align:center;
                         cursor:pointer;
                         display:flex;
+                        justify-content:flex-start;
                         align-items:center;
-                        justify-content: center;
                         height:50px; 
+                        i{
+                            margin-right:5px
+                        }
                         
                         &:hover {
                             color:#F62A00;

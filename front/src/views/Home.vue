@@ -5,7 +5,7 @@
             <span class="hello_text"><AnimatedTitle title="Hello," /></span>
             <span class="my_name"><AnimatedTitle :title="'I\'m '+homeData.first_name" /></span>
             <span class="profession_text"><AnimatedTitle :title="homeData.function" /></span>
-            <a className='hire_me'>
+            <a class='hire_me' @click="scrollToSection('#contact',$event)" href="#contact" >
                 <span class='animated_bg'></span>
                 <span class='contactme'>Contact me</span>
             </a>
@@ -22,12 +22,14 @@
  import StyledIntroText from '../components/StyledComponents/StyledIntroText'
  import StyledHeroPhoto from '../components/StyledComponents/StyledHeroPhoto'
  import StyledHome from '../components/StyledComponents/StyledHome'
+ import {scrollToSection} from '../globalFunctions'
  export default {
    name: 'Home',
    data() {
         return {
             homeData: null,
-            host : process.env.VUE_APP_HOST
+            host : process.env.VUE_APP_HOST,
+            scrollToSection:scrollToSection
         };
     },
     watch: {
@@ -35,7 +37,7 @@
             handler(newVal) {
                 this.homeData = newVal;
             },
-            immediate: true // Trigger immediately upon creation
+            immediate: true 
         }
     },
    components: {

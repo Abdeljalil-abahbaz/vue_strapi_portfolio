@@ -15,7 +15,9 @@ const StyledHome = styled.div`
       width: 100%;
       justify-content: space-around;
       z-index:1;
-
+    }
+    a{
+      text-decoration: none;
     }
     @media screen and (max-width: 914px){
       .intro{

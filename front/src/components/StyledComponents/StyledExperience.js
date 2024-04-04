@@ -9,7 +9,6 @@ const StyleProjects = styled.div`
     font-size:60px;
     text-transform: uppercase;
     text-align: center;
-    font-family: "Raleway";
   }
   
 `;

@@ -6,6 +6,7 @@ const StyledIntroText = styled.h1`
     line-height:5rem;
     justify-content: center;
     letter-spacing: 2px;
+    padding-inline:20px;
     
     .hello_text{
         color:#F1F3CE;

@@ -1,5 +1,5 @@
 import styled from 'vue3-styled-components'
-const StyledFormation = styled.div`
+const StyledContact = styled.div`
 min-height:100vh;
 width:1100px;
 margin:auto;
@@ -10,6 +10,12 @@ h1{
   text-transform: uppercase;
   text-align: center;
 }
-
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+    
 `;
-export default StyledFormation
+export default StyledContact

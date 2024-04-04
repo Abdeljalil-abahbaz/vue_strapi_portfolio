@@ -8,6 +8,7 @@
           <Skills/>
           <Experiences/>
           <Formations/>
+          <Contact/>
         </div>
         
       </div> 
@@ -21,6 +22,7 @@ import About from './views/About.vue';
 import Skills from './views/Skills.vue';
 import Experiences from './views/Experiences.vue';
 import Formations from './views/Formations.vue';
+import Contact from './views/Contact.vue'
   export default {
     name: 'App',
     data(){
@@ -69,7 +71,8 @@ import Formations from './views/Formations.vue';
       About,
       Skills,
       Experiences,
-      Formations
+      Formations,
+      Contact
     }
   }
 </script>

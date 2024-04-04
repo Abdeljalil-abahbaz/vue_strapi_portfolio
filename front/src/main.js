@@ -9,6 +9,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import '@fortawesome/fontawesome-free/css/all.css'; // Ensure you are using the correct path
 
+
 library.add(fas, far, fab);
 
 const app = createApp(App);

@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default createStore({
   state: {
-    hero: null,
+    hero: {},
     skills: [],
     experiences: [],
     formations: []
@@ -21,7 +21,7 @@ export default createStore({
         commit('setData', {data:response.data.data, action});
       } catch (error) {
         console.error('Error fetching data:', error);
-        throw error; // Re-throw the error for handling in components
+        throw error;
       }
     }
   },

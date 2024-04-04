@@ -5,7 +5,7 @@ const AboutStyled = styled.div`
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between
     align-items: center;
     width:1100px;
     margin:auto;
