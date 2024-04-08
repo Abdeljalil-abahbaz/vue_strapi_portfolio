@@ -1,5 +1,6 @@
 <template>
-    <StyledSkills id="skills">
+    <div id="skills" class="bloc">
+    <StyledSkills >
         <PageHeading title="Skills" subTitle="My skills at your service"/>
         <div class="skills_content">
             <div class='skills_chart'>
@@ -30,6 +31,7 @@
         
        
     </StyledSkills> 
+    </div>
     
 </template>
 <script>

@@ -37,6 +37,28 @@ const StyledTimeLine = styled.div`
           padding:10px;
           width :90%;
           z-index: 1;
+          h5{
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding-bottom: 10px;
+          }
+          em{
+            padding-bottom: 5px;
+            margin-right: 10px;
+            color: gold;
+            font-size: 12px;
+          }
+          mark{
+            background: none;
+            font-size: 12px;
+            color: #8f9ca8;
+            font-weight: bolder;
+          }
+          p{
+            padding-top: 10px;
+            font-size: 14px;
+            line-height: 1.5;
+          }
         }
         
       }

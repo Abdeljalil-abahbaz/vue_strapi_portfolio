@@ -1,8 +1,5 @@
 import styled from 'vue3-styled-components'
 const StyleSkills = styled.div`
-  width:1100px;
-  min-height:100vh;
-  margin:auto;
   .skills_content{
     display:flex;
     justify-content: space-around;

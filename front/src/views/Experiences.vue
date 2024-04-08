@@ -1,8 +1,10 @@
 <template>
-    <StyledExperience id="experiences">
-        <PageHeading title="My experience" subTitle="Time line of my career" />
-        <TimeLine :items="experiences" />
-    </StyledExperience> 
+    <div id="experiences" class="bloc" v-if="experiences">
+        <StyledExperience>
+            <PageHeading title="My experience" subTitle="Time line of my career" />
+            <TimeLine :items="experiences" />
+        </StyledExperience> 
+    </div>
 </template>
 <script>
 import StyledExperience from '../components/StyledComponents/StyledExperience'

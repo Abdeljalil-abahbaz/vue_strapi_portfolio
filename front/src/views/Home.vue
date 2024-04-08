@@ -1,5 +1,6 @@
 <template>
-    <StyledHome className='text' id="home" v-if="homeData">
+  <div class='bloc' id="home" v-if="homeData">
+    <StyledHome>
       <div class="intro">  
           <StyledIntroText class="head_name">
             <span class="hello_text"><AnimatedTitle title="Hello," /></span>
@@ -15,6 +16,7 @@
         </StyledHeroPhoto>
       </div>
     </StyledHome>
+  </div>
  </template>
  
  <script>

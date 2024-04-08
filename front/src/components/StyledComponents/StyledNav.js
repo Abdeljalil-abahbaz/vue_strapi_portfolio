@@ -61,7 +61,11 @@ const StyledNav = styled.div`
                 padding:0;
                 li{
                     padding:10px;
-                    
+                    &.active{
+                        a{
+                            color :red;background
+                        }
+                    }
                     a{
                         color:#6c757d;
                         cursor:pointer;

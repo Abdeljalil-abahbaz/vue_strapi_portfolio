@@ -10,21 +10,23 @@ line-height: 24px;
     padding: 7px 0 0 30px;
 }
  h3 {
-        color: #8f9ca8;
-        margin: 0 0 6px;
-        position: relative;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font: 600 12px "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        i{
-            color: red;
-        }
+    color: #8f9ca8;
+    margin: 0 0 6px;
+    position: relative;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font: 600 12px "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    i{
+        color: red;
     }
+}
 hr {
     margin: 18px 0;
     height: 0;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
+    border: none;
+    border-bottom: 1px solid;
 }
 address {
     display: block;
@@ -34,6 +36,7 @@ address {
 }
 a{
     color: #8f9ca8;
+    text-decoration:none;
 }
 `;
 export default StyledContactInfos

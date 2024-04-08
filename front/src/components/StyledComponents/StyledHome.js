@@ -4,7 +4,6 @@ const StyledHome = styled.div`
     display:flex;
     flex-direction:column;
     align-items:flex-start;
-    min-height: 100vh;
     justify-content: center;
     line-height:3rem;
     overflow: hidden;

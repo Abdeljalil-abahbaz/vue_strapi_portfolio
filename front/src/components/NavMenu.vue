@@ -15,12 +15,12 @@
             <li class='nav-items'>
                 <nav>
                     <ul>
-                        <li><a href="#home" @click="scrollToSection('#home',$event)"><i class="fa-solid fa-house"></i> Home</a></li>
-                        <li><a href="#about" @click="scrollToSection('#about',$event)"><i class="fa-solid fa-address-card"></i> About</a></li>
-                        <li><a href="#skills" @click="scrollToSection('#skills',$event)"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
-                        <li><a href="#experiences" @click="scrollToSection('#experiences',$event)"><i class="fa-solid fa-laptop-code"></i> Experiences</a></li>
-                        <li><a href="#formations" @click="scrollToSection('#formations',$event)"><i class="fa-solid fa-book"></i> Formations</a></li>
-                        <li><a href="#contact" @click="scrollToSection('#contact',$event)"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                        <li><a href="#home" :class="{active : (activeMenuItem==='#home')}" @click="handleClick('#home',$event)"><i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a href="#about" :class="{active : (activeMenuItem==='#about')}" @click="handleClick('#about',$event)"><i class="fa-solid fa-address-card"></i> About</a></li>
+                        <li><a href="#skills" :class="{active : (activeMenuItem==='#skills')}" @click="handleClick('#skills',$event)"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
+                        <li><a href="#experiences" :class="{active : (activeMenuItem==='#experiences')}" @click="handleClick('#experiences',$event)"><i class="fa-solid fa-laptop-code"></i> Experiences</a></li>
+                        <li><a href="#formations" :class="{active : (activeMenuItem==='#formations')}" @click="handleClick('#formations',$event)"><i class="fa-solid fa-book"></i> Formations</a></li>
+                        <li><a href="#contact" :class="{active : (activeMenuItem==='#contact')}" @click="handleClick('#contact',$event)"><i class="fa-solid fa-envelope"></i> Contact</a></li>
                     </ul>
                 </nav>
             </li>
@@ -43,19 +43,66 @@ export default {
     data(){
         return {
             menuOpen: true,
+            activeMenuItem:'#home',
+            scrollTimeOut:null,
             scrollToSection:scrollToSection,
             handlePopstate:handlePopstate
         }
     },
     mounted() {
         window.addEventListener('popstate', this.handlePopstate());
+        document.querySelector('.container').addEventListener('scroll', ()=>{this.handleTimeout('scrollTimeOut', this.handleScroll, 50)});
     },
     beforeUnmount() {
         window.removeEventListener('popstate', this.handlePopstate());
+        document.querySelector('.container').removeEventListener('scroll', ()=>{this.handleTimeout('scrollTimeOut', this.handleScroll, 50)});
     },
     methods:{
         setMenuOpen(isOpen){
             this.menuOpen = isOpen
+        },
+        handleClick(section, event){
+            this.activeMenuItem = section
+            this.scrollToSection(section,event)
+        },
+        handleTimeout(timeout, func, duration){
+            if(this[timeout])
+                clearTimeout(this[timeout])
+                this[timeout] = setTimeout(()=>{
+                    func()
+                },duration)
+        },
+        handleScroll() {
+            const home = document.querySelector('#home').offsetTop;
+            const about = document.querySelector('#about').offsetTop;
+            const skills = document.querySelector('#skills').offsetTop;
+            const experiences = document.querySelector('#experiences').offsetTop;
+            const formations = document.querySelector('#formations').offsetTop;
+            const contact = document.querySelector('#contact').offsetTop;
+            const scrollPosition = document.querySelector('.container').scrollTop;
+            
+            const sections = [
+                { id: '#home', offsetTop: home },
+                { id: '#about', offsetTop: about },
+                { id: '#skills', offsetTop: skills },
+                { id: '#experiences', offsetTop: experiences },
+                { id: '#formations', offsetTop: formations },
+                { id: '#contact', offsetTop: contact },
+            ];
+
+            let activeSectionId = '#home';
+
+            for (let i = 0; i < sections.length; i++) {
+                const section = sections[i];
+                const nextSection = sections[i + 1];
+
+                if (scrollPosition >= section.offsetTop && (scrollPosition < nextSection?.offsetTop || !nextSection)) {
+                    activeSectionId = section.id;
+                    break;
+                }
+            }
+
+            this.activeMenuItem = activeSectionId;
         }
         
     },

@@ -4,10 +4,15 @@
       <div class="container" @scroll="animateChart"> 
         <div class="content">
           <Home/>
+          <ParalaxFrame _class="home_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://static.vecteezy.com/system/resources/previews/023/056/314/non_2x/programmer-using-laptop-with-code-html-and-programming-on-screen-laptop-programmer-development-computer-code-web-design-coding-technology-in-software-digital-software-technology-development-iot-photo.jpg"/>
           <About/>
+          <ParalaxFrame _class="about_parallax" title="The only way to do great work is to love what you do." description="- Steve Jobs" urlPhoto="https://www.mathieu-crevoulin.com/img/bg_01.jpg"/>
           <Skills/>
-          <Experiences/>
+          <ParalaxFrame _class="skills_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://images.spiceworks.com/wp-content/uploads/2023/08/07071207/Devops-Computer-Book.jpg"/>
+          <Experiences />
+          <ParalaxFrame _class="exp_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://as2.ftcdn.net/v2/jpg/03/38/11/75/1000_F_338117533_ALdJfcQOEECyx0laPSKJRUcq7Yu5KorK.jpg"/>
           <Formations/>
+          <ParalaxFrame _class="form_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://i.pinimg.com/736x/b6/88/45/b68845a212688ba060337267ba240746.jpg" />
           <Contact/>
         </div>
         
@@ -23,6 +28,7 @@ import Skills from './views/Skills.vue';
 import Experiences from './views/Experiences.vue';
 import Formations from './views/Formations.vue';
 import Contact from './views/Contact.vue'
+import ParalaxFrame from './components/ParalaxFrame.vue'
   export default {
     name: 'App',
     data(){
@@ -52,7 +58,6 @@ import Contact from './views/Contact.vue'
             const chart = document.querySelector('.skills_chart');
             const rect = chart.getBoundingClientRect();
             const isVisible = (rect.top >= 0 && rect.bottom <= windowHeight);
-            // Check if the content is currently in the viewport
             if (isVisible) {
                 chart.querySelectorAll('.chart').forEach(element => {
                   const el = element.querySelector('.bg');
@@ -72,7 +77,8 @@ import Contact from './views/Contact.vue'
       Skills,
       Experiences,
       Formations,
-      Contact
+      Contact,
+      ParalaxFrame
     }
   }
 </script>
@@ -83,5 +89,15 @@ import Contact from './views/Contact.vue'
   top:0;
   left:0;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.bloc{
+  min-height:100vh;
+  width:100%;
+  background: #00293c;
+}
+.bloc:not(#home) > div{
+  width:1100px;
+  margin:auto;
+  overflow: hidden;
 }
 </style>

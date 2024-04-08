@@ -51,14 +51,9 @@ export default {
     },
     methods: {
         validateForm() {
-            let isValid = true;
-            if (!this.formData.name) {
-                this.nameError = 'Name is required';
-                isValid = false;
-            } else {
-                this.nameError = '';
-            }
-            return isValid;
+            this.nameError = !this.formData.name ? 'Name is required' : ''
+            this.messageError = !this.formData.message ? 'Message is required' : ''
+            return (this.nameError || this.messageError) ? false : true
         },
         async submitForm() {
             if (this.validateForm()) {

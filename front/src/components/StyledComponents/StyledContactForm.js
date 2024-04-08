@@ -17,7 +17,9 @@ const StyleContactForm = styled.div`
         display: flex;
         flex-direction:row;
         width: 100%;
-
+        .label{
+          color:red;
+        }
         input,textarea{
           padding:25px;
           border:unset;

@@ -1,13 +1,16 @@
 <template>
-    <StyledContact id='contact'>
-        <PageHeading title="Address & contact" subTitle="Have an idea? let's make it real!" />
-        <div class="content">
-            <ContactForm/>
-            <ContactInfos/>
-            <ContactMap/>
-            
+    
+        <div class="bloc" id='contact'>
+            <StyledContact>
+            <PageHeading title="Address & contact" subTitle="Have an idea? let's make it real!" />
+            <div class="content">
+                <ContactForm/>
+                <ContactInfos/>
+                <ContactMap/>
+            </div>
+            </StyledContact>
         </div>
-    </StyledContact>
+    
 </template>
 <script>
     import StyledContact from '../components/StyledComponents/StyledContact'
