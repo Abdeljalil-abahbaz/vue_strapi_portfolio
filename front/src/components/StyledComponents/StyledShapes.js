@@ -16,7 +16,8 @@ const StyledShapes = styled.div`
         flex-wrap:nowrap;
         align-items: center;
         div.text{
-          color:#FFFFFF;
+          color: #1e656d;
+          padding: 20px;
           font-size:12px;
           max-width: 236px;
           display:flex;

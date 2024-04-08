@@ -46,7 +46,7 @@
      AnimatedTitle,
      StyledIntroText,
      StyledHeroPhoto,
-     StyledHome
+     StyledHome,
    }
  }
  </script>

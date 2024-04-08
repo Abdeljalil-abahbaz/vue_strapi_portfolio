@@ -4,15 +4,15 @@
       <div class="container" @scroll="animateChart"> 
         <div class="content">
           <Home/>
-          <ParalaxFrame _class="home_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://static.vecteezy.com/system/resources/previews/023/056/314/non_2x/programmer-using-laptop-with-code-html-and-programming-on-screen-laptop-programmer-development-computer-code-web-design-coding-technology-in-software-digital-software-technology-development-iot-photo.jpg"/>
+          <ParalaxFrame _class="home_parallax" :image="responsive" title="Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" :urlPhoto="image1"/>
           <About/>
-          <ParalaxFrame _class="about_parallax" title="The only way to do great work is to love what you do." description="- Steve Jobs" urlPhoto="https://www.mathieu-crevoulin.com/img/bg_01.jpg"/>
+          <ParalaxFrame _class="about_parallax" :image="grpmeeting" title="Companies, associations, or individuals" description="Your needs are a priority" :urlPhoto="image2"/>
           <Skills/>
-          <ParalaxFrame _class="skills_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://images.spiceworks.com/wp-content/uploads/2023/08/07071207/Devops-Computer-Book.jpg"/>
+          <ParalaxFrame _class="skills_parallax" :image="customizedExperience" title="Customized solutions" description="Customized solutions to fit your industry needs!" :urlPhoto="image3"/>
           <Experiences />
-          <ParalaxFrame _class="exp_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://as2.ftcdn.net/v2/jpg/03/38/11/75/1000_F_338117533_ALdJfcQOEECyx0laPSKJRUcq7Yu5KorK.jpg"/>
+          <ParalaxFrame _class="exp_parallax" :image="topixel" title="Vision to reality" description="Transforming visions into pixels" :urlPhoto="image4"/>
           <Formations/>
-          <ParalaxFrame _class="form_parallax" title=" Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" urlPhoto="https://i.pinimg.com/736x/b6/88/45/b68845a212688ba060337267ba240746.jpg" />
+          <ParalaxFrame _class="form_parallax" :image="idearealize" title=" Precision in execution" description="Bringing ideas to life with precision" :urlPhoto="image5" />
           <Contact/>
         </div>
         
@@ -29,11 +29,33 @@ import Experiences from './views/Experiences.vue';
 import Formations from './views/Formations.vue';
 import Contact from './views/Contact.vue'
 import ParalaxFrame from './components/ParalaxFrame.vue'
+import image1 from '@/assets/bg_01.jpg'
+import image2 from '@/assets/bg_02.jpg'
+import image3 from '@/assets/bg_03.jpg'
+import image4 from '@/assets/bg_04.jpg'
+import image5 from '@/assets/bg_05.jpg'
+import responsive from '@/assets/responsive.png'
+import grpmeeting from '@/assets/client-meeting.png'
+import customizedExperience from '@/assets/custom-service.png'
+import topixel from '@/assets/topixel.png'
+import idearealize from '@/assets/idea-realization.webp'
+
+
   export default {
     name: 'App',
     data(){
       return {
-        animateChartDone : false
+        animateChartDone : false,
+        image1,
+        image2,
+        image3,
+        image4,
+        image5,
+        responsive,
+        grpmeeting,
+        customizedExperience,
+        topixel,
+        idearealize
       }
     },
     mounted(){
@@ -53,21 +75,19 @@ import ParalaxFrame from './components/ParalaxFrame.vue'
         }
       },
       animateChart(){
-            if(this.animateChartDone)return false;
-            var windowHeight = window.innerHeight;
-            const chart = document.querySelector('.skills_chart');
-            const rect = chart.getBoundingClientRect();
-            const isVisible = (rect.top >= 0 && rect.bottom <= windowHeight);
-            if (isVisible) {
-                chart.querySelectorAll('.chart').forEach(element => {
-                  const el = element.querySelector('.bg');
-                  console.log(el.getAttribute('data-percent'))
+          var windowHeight = window.innerHeight;
+          const chart = document.querySelector('.skills_chart');
+              chart.querySelectorAll('.chart').forEach(element => {
+                const el = element.querySelector('.bg');
+                const rect = el.getBoundingClientRect();
+                const isVisible = (rect.top >= 0 && rect.bottom <= windowHeight);
+                if (isVisible) {
                   el.style.width = el.getAttribute('data-percent') + '%';
-                });
-                this.animateChartDone = true
-                
-            }
-        }
+                }
+              });
+              
+        
+      }
     },
     components:{
       StyledApp,
@@ -95,6 +115,10 @@ import ParalaxFrame from './components/ParalaxFrame.vue'
   width:100%;
   background: #00293c;
 }
+.bloc:not(#home){
+  padding-block: 50px;
+}
+  
 .bloc:not(#home) > div{
   width:1100px;
   margin:auto;
