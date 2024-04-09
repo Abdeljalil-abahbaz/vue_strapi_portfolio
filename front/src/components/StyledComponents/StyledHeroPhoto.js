@@ -1,10 +1,10 @@
 import styled from 'vue3-styled-components'
 const StyleHeroImage = styled.div`
         
-        transform: rotate(32deg);
-        height: 100vh;
+        height: 800px;
         position: relative;
         position:relative;
+        flex:1;
         
         img{
             height:100%;

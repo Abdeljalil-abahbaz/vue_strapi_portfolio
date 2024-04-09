@@ -76,6 +76,7 @@ export default {
         handleScroll() {
             const home = document.querySelector('#home').offsetTop;
             const about = document.querySelector('#about').offsetTop;
+            const services = document.querySelector('#services').offsetTop;
             const skills = document.querySelector('#skills').offsetTop;
             const experiences = document.querySelector('#experiences').offsetTop;
             const formations = document.querySelector('#formations').offsetTop;
@@ -85,10 +86,11 @@ export default {
             const sections = [
                 { id: '#home', offsetTop: home },
                 { id: '#about', offsetTop: about },
+                { id: '#services', offsetTop: services },
                 { id: '#skills', offsetTop: skills },
                 { id: '#experiences', offsetTop: experiences },
                 { id: '#formations', offsetTop: formations },
-                { id: '#contact', offsetTop: contact },
+                { id: '#contact', offsetTop: contact }
             ];
 
             let activeSectionId = '#home';

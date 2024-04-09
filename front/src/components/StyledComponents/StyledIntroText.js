@@ -15,6 +15,8 @@ const StyledIntroText = styled.h1`
         }
     }
     .hire_me{
+        width:100%;
+        text-align:center;
         font-size: 1.5rem;
         text-transform: uppercase;
         font-family: "Raleway-semibold";

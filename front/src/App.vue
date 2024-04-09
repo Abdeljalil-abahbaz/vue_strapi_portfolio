@@ -110,15 +110,14 @@ import idearealize from '@/assets/idea-realization.webp'
 *{
   margin: 0;
   padding: 0;
-  top:0;
   left:0;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing: 0.5px;
 }
 .bloc{
-  min-height:100vh;
   width:100%;
   background: #00293c;
+  margin-bottom: 50px;
 }
 .bloc:not(#home){
   padding-block: 50px;
@@ -128,5 +127,9 @@ import idearealize from '@/assets/idea-realization.webp'
   width:1100px;
   margin:auto;
   overflow: hidden;
+}
+::selection {
+  background-color: red; /* Choose your desired color */
+  color: #00293c; /* Text color when highlighted */
 }
 </style>
