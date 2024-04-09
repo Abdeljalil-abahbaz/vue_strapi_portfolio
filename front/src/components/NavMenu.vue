@@ -17,6 +17,7 @@
                     <ul>
                         <li><a href="#home" :class="{active : (activeMenuItem==='#home')}" @click="handleClick('#home',$event)"><i class="fa-solid fa-house"></i> Home</a></li>
                         <li><a href="#about" :class="{active : (activeMenuItem==='#about')}" @click="handleClick('#about',$event)"><i class="fa-solid fa-address-card"></i> About</a></li>
+                        <li><a href="#services" :class="{active : (activeMenuItem==='#services')}" @click="handleClick('#services',$event)"><i class="fa-solid fa-wrench"></i> Services</a></li>
                         <li><a href="#skills" :class="{active : (activeMenuItem==='#skills')}" @click="handleClick('#skills',$event)"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
                         <li><a href="#experiences" :class="{active : (activeMenuItem==='#experiences')}" @click="handleClick('#experiences',$event)"><i class="fa-solid fa-laptop-code"></i> Experiences</a></li>
                         <li><a href="#formations" :class="{active : (activeMenuItem==='#formations')}" @click="handleClick('#formations',$event)"><i class="fa-solid fa-book"></i> Formations</a></li>

@@ -932,6 +932,38 @@ export interface ApiMessageMessage extends Schema.CollectionType {
   };
 }
 
+export interface ApiServiceService extends Schema.CollectionType {
+  collectionName: 'services';
+  info: {
+    singularName: 'service';
+    pluralName: 'services';
+    displayName: 'Service';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    title: Attribute.String;
+    description: Attribute.RichText;
+    icon: Attribute.String;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::service.service',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::service.service',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiTechnoTechno extends Schema.CollectionType {
   collectionName: 'technos';
   info: {
@@ -989,6 +1021,7 @@ declare module '@strapi/types' {
       'api::formation.formation': ApiFormationFormation;
       'api::hero.hero': ApiHeroHero;
       'api::message.message': ApiMessageMessage;
+      'api::service.service': ApiServiceService;
       'api::techno.techno': ApiTechnoTechno;
     }
   }

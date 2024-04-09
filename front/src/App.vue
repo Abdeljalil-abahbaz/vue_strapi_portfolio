@@ -7,6 +7,7 @@
           <ParalaxFrame _class="home_parallax" :image="responsive" title="Responsive Web Development" description="Compatible with Mobile, Tablets & PCs" :urlPhoto="image1"/>
           <About/>
           <ParalaxFrame _class="about_parallax" :image="grpmeeting" title="Companies, associations, or individuals" description="Your needs are a priority" :urlPhoto="image2"/>
+          <Services/>
           <Skills/>
           <ParalaxFrame _class="skills_parallax" :image="customizedExperience" title="Customized solutions" description="Customized solutions to fit your industry needs!" :urlPhoto="image3"/>
           <Experiences />
@@ -28,6 +29,7 @@ import Skills from './views/Skills.vue';
 import Experiences from './views/Experiences.vue';
 import Formations from './views/Formations.vue';
 import Contact from './views/Contact.vue'
+import Services from './views/Services.vue'
 import ParalaxFrame from './components/ParalaxFrame.vue'
 import image1 from '@/assets/bg_01.jpg'
 import image2 from '@/assets/bg_02.jpg'
@@ -68,7 +70,8 @@ import idearealize from '@/assets/idea-realization.webp'
               this.$store.dispatch('fetchData' , {params : 'technos?populate=*&sort=percent:asc', action : 'skills'}),
               this.$store.dispatch('fetchData' , {params : 'hero?populate=*', action : 'hero'}),
               this.$store.dispatch('fetchData' , {params : 'experiences?populate=*', action : 'experiences'}),
-              this.$store.dispatch('fetchData' , {params : 'formations?populate=*', action : 'formations'})
+              this.$store.dispatch('fetchData' , {params : 'formations?populate=*', action : 'formations'}),
+              this.$store.dispatch('fetchData' , {params : 'services?populate=*', action : 'services'})
             ])
         }catch(error){
           console.error('Error fetching about data:', error);
@@ -98,7 +101,8 @@ import idearealize from '@/assets/idea-realization.webp'
       Experiences,
       Formations,
       Contact,
-      ParalaxFrame
+      ParalaxFrame,
+      Services
     }
   }
 </script>
@@ -108,7 +112,8 @@ import idearealize from '@/assets/idea-realization.webp'
   padding: 0;
   top:0;
   left:0;
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 0.5px;
 }
 .bloc{
   min-height:100vh;

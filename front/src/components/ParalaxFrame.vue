@@ -80,7 +80,7 @@
         font-size: 17px;
       }
       .parallax-content img{
-        height:377px;
+        height:250px;
 
       }
   </style>

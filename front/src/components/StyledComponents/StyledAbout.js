@@ -19,13 +19,14 @@ const AboutStyled = styled.div`
         display: flex;
         flex-direction: row;
         p{
-            font-size: 19px;
+            font-size: 14px;
             line-height: 1.6;
             padding:20px;
         }
-        img{
-            height: 300px;
+        .description-left, .description-right, img{
+            height: 257px;
         }
+        
     }
     
     @media only screen and (max-width: 913px) {

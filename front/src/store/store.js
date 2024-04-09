@@ -6,7 +6,8 @@ export default createStore({
     hero: {},
     skills: [],
     experiences: [],
-    formations: []
+    formations: [],
+    services: []
   },
   mutations: {
     setData(state, payload) {
@@ -29,6 +30,7 @@ export default createStore({
     getHero: state => state.hero,
     getSkills: state => state.skills,
     getExperiences: state => state.experiences,
-    getFormations: state => state.formations
+    getFormations: state => state.formations,
+    getServices: state => state.services
   }
 });
