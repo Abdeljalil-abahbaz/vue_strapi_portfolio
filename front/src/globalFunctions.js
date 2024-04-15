@@ -9,7 +9,8 @@ export function scrollToSection(selector, event) {
     }
 }
 export function handlePopstate() {
-    const sectionId = window.location.hash;
+    const sectionId = window.location.hash || "#home";
+
     const element = document.querySelector(sectionId);
     if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
