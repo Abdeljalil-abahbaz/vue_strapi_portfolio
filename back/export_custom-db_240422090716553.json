@@ -1,0 +1,761 @@
+{
+	"version": 2,
+	"data": {
+		"plugin::upload.folder": {},
+		"plugin::upload.file": {
+			"1": {
+				"id": 1,
+				"name": "logo-euroerp.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_euroerp_0521d3fed9",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_euroerp_0521d3fed9.png",
+				"createdAt": "2024-03-29T11:55:00.692Z",
+				"updatedAt": "2024-03-29T11:55:00.692Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"2": {
+				"id": 2,
+				"name": "logo-viseo.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_viseo_223ce15815",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_viseo_223ce15815.png",
+				"createdAt": "2024-03-29T11:58:34.916Z",
+				"updatedAt": "2024-03-29T11:58:34.916Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"3": {
+				"id": 3,
+				"name": "logo-vala.jfif",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_vala_933b17669d",
+				"ext": ".jfif",
+				"mime": "image/jpeg",
+				"url": "/uploads/logo_vala_933b17669d.jfif",
+				"createdAt": "2024-03-29T12:05:37.988Z",
+				"updatedAt": "2024-03-29T12:05:37.988Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"4": {
+				"id": 4,
+				"name": "logo-province.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_province_39b62ae190",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_province_39b62ae190.png",
+				"createdAt": "2024-03-29T12:10:13.357Z",
+				"updatedAt": "2024-03-29T12:10:13.357Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"5": {
+				"id": 5,
+				"name": "logo-fpt.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_fpt_7ed56a01db",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_fpt_7ed56a01db.png",
+				"createdAt": "2024-03-29T12:21:02.589Z",
+				"updatedAt": "2024-03-29T12:21:02.589Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"6": {
+				"id": 6,
+				"name": "logo-OFPPT.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_OFPPT_f09ce811a4",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_OFPPT_f09ce811a4.png",
+				"createdAt": "2024-03-29T12:23:44.450Z",
+				"updatedAt": "2024-03-29T12:23:44.450Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"7": {
+				"id": 7,
+				"name": "logo-react.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_react_012f31f181",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_react_012f31f181.png",
+				"createdAt": "2024-03-29T12:27:44.098Z",
+				"updatedAt": "2024-03-29T12:27:44.098Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"8": {
+				"id": 8,
+				"name": "JavaScript-logo.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "Java_Script_logo_086a406837",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/Java_Script_logo_086a406837.png",
+				"createdAt": "2024-03-29T12:28:52.926Z",
+				"updatedAt": "2024-03-29T12:28:52.926Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"9": {
+				"id": 9,
+				"name": "logo-css3.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_css3_622ca5c280",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_css3_622ca5c280.png",
+				"createdAt": "2024-03-29T12:30:18.056Z",
+				"updatedAt": "2024-03-29T12:30:18.056Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"10": {
+				"id": 10,
+				"name": "logo-jquery.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_jquery_6b7cd20571",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_jquery_6b7cd20571.png",
+				"createdAt": "2024-03-29T12:31:23.301Z",
+				"updatedAt": "2024-03-29T12:31:23.301Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"11": {
+				"id": 11,
+				"name": "bootstrap-logo.svg",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "bootstrap_logo_5da53d065b",
+				"ext": ".svg",
+				"mime": "image/svg+xml",
+				"url": "/uploads/bootstrap_logo_5da53d065b.svg",
+				"createdAt": "2024-03-29T12:32:21.783Z",
+				"updatedAt": "2024-03-29T12:32:21.783Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"12": {
+				"id": 12,
+				"name": "4d_logo.jfif",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "4d_logo_d84f7f2cea",
+				"ext": ".jfif",
+				"mime": "image/jpeg",
+				"url": "/uploads/4d_logo_d84f7f2cea.jfif",
+				"createdAt": "2024-03-29T12:33:20.673Z",
+				"updatedAt": "2024-03-29T12:33:20.673Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"13": {
+				"id": 13,
+				"name": "php.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "php_c2b182a16a",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/php_c2b182a16a.png",
+				"createdAt": "2024-03-29T12:34:12.551Z",
+				"updatedAt": "2024-03-29T12:34:12.551Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"14": {
+				"id": 14,
+				"name": "logo-strapi.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_strapi_c4cb523926",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_strapi_c4cb523926.png",
+				"createdAt": "2024-03-29T12:35:31.432Z",
+				"updatedAt": "2024-03-29T12:35:31.432Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"15": {
+				"id": 15,
+				"name": "logo-vue.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_vue_6e42b78845",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_vue_6e42b78845.png",
+				"createdAt": "2024-03-29T12:36:51.652Z",
+				"updatedAt": "2024-03-29T12:36:51.652Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"16": {
+				"id": 16,
+				"name": "logo-graphql.png",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "logo_graphql_d6ab4ef763",
+				"ext": ".png",
+				"mime": "image/png",
+				"url": "/uploads/logo_graphql_d6ab4ef763.png",
+				"createdAt": "2024-03-29T12:38:40.750Z",
+				"updatedAt": "2024-03-29T12:38:40.750Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"18": {
+				"id": 18,
+				"name": "abdeljalil_abahbaz.jpeg",
+				"alternativeText": null,
+				"caption": null,
+				"hash": "abdeljalil_abahbaz_97ea2bf6b4",
+				"ext": ".jpeg",
+				"mime": "image/jpeg",
+				"url": "/uploads/abdeljalil_abahbaz_97ea2bf6b4.jpeg",
+				"createdAt": "2024-04-01T14:15:52.932Z",
+				"updatedAt": "2024-04-01T14:15:52.932Z",
+				"createdBy": null,
+				"updatedBy": null
+			}
+		},
+		"api::techno.techno": {
+			"1": {
+				"id": 1,
+				"title": "ReactJs",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:27:57.021Z",
+				"updatedAt": "2024-04-02T13:04:01.093Z",
+				"publishedAt": "2024-03-29T12:27:58.210Z",
+				"color": "#20c997",
+				"icon": "react",
+				"logo": 7,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"2": {
+				"id": 2,
+				"title": "Javascript",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:28:56.254Z",
+				"updatedAt": "2024-04-02T13:05:28.195Z",
+				"publishedAt": "2024-03-29T12:28:58.580Z",
+				"color": "#ffc107",
+				"icon": "js",
+				"logo": 8,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"3": {
+				"id": 3,
+				"title": "css3",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:30:21.773Z",
+				"updatedAt": "2024-04-02T13:02:40.865Z",
+				"publishedAt": "2024-03-29T12:30:25.501Z",
+				"color": "#e83e8c",
+				"icon": "css3",
+				"logo": 9,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"4": {
+				"id": 4,
+				"title": "jquery",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:31:26.557Z",
+				"updatedAt": "2024-04-02T13:03:13.812Z",
+				"publishedAt": "2024-03-29T12:31:27.394Z",
+				"color": "#106cae",
+				"icon": "check",
+				"logo": 10,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"5": {
+				"id": 5,
+				"title": "Bootstrap",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:32:25.128Z",
+				"updatedAt": "2024-04-02T13:01:03.775Z",
+				"publishedAt": "2024-03-29T12:32:26.030Z",
+				"color": "#6610f2",
+				"icon": "bootstrap",
+				"logo": 11,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"6": {
+				"id": 6,
+				"title": "4D",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:33:24.255Z",
+				"updatedAt": "2024-04-02T13:00:49.185Z",
+				"publishedAt": "2024-03-29T12:33:25.240Z",
+				"color": "#007bff",
+				"icon": "check",
+				"logo": 12,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"7": {
+				"id": 7,
+				"title": "php",
+				"percent": 75,
+				"createdAt": "2024-03-29T12:34:15.661Z",
+				"updatedAt": "2024-04-02T13:03:45.682Z",
+				"publishedAt": "2024-03-29T12:34:16.442Z",
+				"color": "#28a745",
+				"icon": "php",
+				"logo": 13,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"8": {
+				"id": 8,
+				"title": "Strapi Js",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:35:35.174Z",
+				"updatedAt": "2024-04-02T13:01:46.678Z",
+				"publishedAt": "2024-03-29T12:35:52.559Z",
+				"color": "#17a2b8",
+				"icon": "check",
+				"logo": 14,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"9": {
+				"id": 9,
+				"title": "Vue Js",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:36:54.368Z",
+				"updatedAt": "2024-04-02T13:02:23.093Z",
+				"publishedAt": "2024-03-29T12:36:55.162Z",
+				"color": "#41b883",
+				"icon": "vuejs",
+				"logo": 15,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"10": {
+				"id": 10,
+				"title": "GraphQl",
+				"percent": 95,
+				"createdAt": "2024-03-29T12:38:43.768Z",
+				"updatedAt": "2024-04-02T13:01:20.291Z",
+				"publishedAt": "2024-03-29T12:38:44.768Z",
+				"color": "#fd7e14",
+				"icon": "check",
+				"logo": 16,
+				"createdBy": null,
+				"updatedBy": null
+			}
+		},
+		"api::service.service": {
+			"1": {
+				"id": 1,
+				"title": "Web Project Management",
+				"description": "Showcase website, corporate, event, e-commerce, intranet, mobile application",
+				"icon": "fa-regular fa-lightbulb",
+				"createdAt": "2024-04-09T10:14:16.411Z",
+				"updatedAt": "2024-04-09T11:38:19.132Z",
+				"publishedAt": "2024-04-09T10:53:12.879Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"2": {
+				"id": 2,
+				"title": "Web Integration",
+				"description": "XHTML/CSS integrations respecting web standards.",
+				"icon": "fa-regular fa-pen-to-square",
+				"createdAt": "2024-04-09T10:16:21.113Z",
+				"updatedAt": "2024-04-09T11:40:00.497Z",
+				"publishedAt": "2024-04-09T10:53:12.879Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"3": {
+				"id": 3,
+				"title": "Customized developements",
+				"description": "Adapted tools for your core business,\ncustomized applications & solutions.",
+				"icon": "fa fa-wrench",
+				"createdAt": "2024-04-09T10:18:58.512Z",
+				"updatedAt": "2024-04-09T10:53:00.461Z",
+				"publishedAt": "2024-04-09T10:53:00.459Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"4": {
+				"id": 4,
+				"title": "Organic search engine optimization",
+				"description": "Semantic display of information,\nclean pages for optimal referencing",
+				"icon": "fa-regular fa-square-check",
+				"createdAt": "2024-04-09T10:20:37.579Z",
+				"updatedAt": "2024-04-09T11:40:40.927Z",
+				"publishedAt": "2024-04-09T10:53:12.879Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"5": {
+				"id": 5,
+				"title": "Web Design",
+				"description": "Custom Website, Responsive Design, Modern and Sleek Design, Visual Storytelling Approach, User-Centric Approach",
+				"icon": "fa fa-pencil",
+				"createdAt": "2024-04-09T10:25:41.765Z",
+				"updatedAt": "2024-04-09T10:25:41.765Z",
+				"publishedAt": "2024-04-09T10:53:12.879Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"6": {
+				"id": 6,
+				"title": "DYNAMIC PAGE CONTENT",
+				"description": "Dynamic pages adapt and update automatically, offering real-time or personalized content for enhanced user engagement.",
+				"icon": "fa fa-refresh",
+				"createdAt": "2024-04-09T10:26:59.490Z",
+				"updatedAt": "2024-04-09T10:53:04.357Z",
+				"publishedAt": "2024-04-09T10:53:04.354Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"7": {
+				"id": 7,
+				"title": "ADMINISTRATION INTERFACE",
+				"description": "Admin interface simplifies system management, enabling efficient control over content, settings, and user access",
+				"icon": "fa fa-cog",
+				"createdAt": "2024-04-09T10:29:32.131Z",
+				"updatedAt": "2024-04-09T10:52:55.864Z",
+				"publishedAt": "2024-04-09T10:52:55.860Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"8": {
+				"id": 8,
+				"title": "RESPONSIVE DESIGN",
+				"description": "Websites adapt to any device for a seamless user experience",
+				"icon": "fa fa-retweet",
+				"createdAt": "2024-04-09T10:31:12.914Z",
+				"updatedAt": "2024-04-09T10:31:12.914Z",
+				"publishedAt": "2024-04-09T10:53:12.879Z",
+				"createdBy": null,
+				"updatedBy": null
+			}
+		},
+		"api::message.message": {
+			"1": {
+				"id": 1,
+				"name": "abdeljalil",
+				"phone": "+212602999043",
+				"email": "abdeljalil.abahbaz@gmail.com",
+				"message": "dsdsdsd",
+				"createdAt": "2024-04-04T15:15:28.678Z",
+				"updatedAt": "2024-04-04T15:15:28.678Z",
+				"publishedAt": "2024-04-04T15:15:28.672Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"2": {
+				"id": 2,
+				"name": "",
+				"phone": "",
+				"email": "",
+				"message": "",
+				"createdAt": "2024-04-05T09:15:47.195Z",
+				"updatedAt": "2024-04-05T09:15:47.195Z",
+				"publishedAt": "2024-04-05T09:15:47.187Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"3": {
+				"id": 3,
+				"name": "",
+				"phone": "",
+				"email": "",
+				"message": "",
+				"createdAt": "2024-04-05T09:16:06.895Z",
+				"updatedAt": "2024-04-05T09:16:06.895Z",
+				"publishedAt": "2024-04-05T09:16:06.893Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"4": {
+				"id": 4,
+				"name": "",
+				"phone": "",
+				"email": "",
+				"message": "",
+				"createdAt": "2024-04-05T09:17:02.400Z",
+				"updatedAt": "2024-04-05T09:17:02.400Z",
+				"publishedAt": "2024-04-05T09:17:02.397Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"5": {
+				"id": 5,
+				"name": "abdeljalil",
+				"phone": "+212602999043",
+				"email": "abdeljalil.abahbaz@outlook.com",
+				"message": "ytyyty",
+				"createdAt": "2024-04-05T09:18:12.227Z",
+				"updatedAt": "2024-04-05T09:18:12.227Z",
+				"publishedAt": "2024-04-05T09:18:12.221Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"6": {
+				"id": 6,
+				"name": "abdeljalil",
+				"phone": "+212602999043",
+				"email": "abdeljalil.abahbaz@gmail.com",
+				"message": "frfsdsdf",
+				"createdAt": "2024-04-09T12:04:08.611Z",
+				"updatedAt": "2024-04-09T12:04:08.611Z",
+				"publishedAt": "2024-04-09T12:04:08.608Z",
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"7": {
+				"id": 7,
+				"name": "abdeljalil",
+				"phone": "+212602999043",
+				"email": "abdeljalil.abahbaz@gmail.com",
+				"message": "FGGF FGDFGDFG",
+				"createdAt": "2024-04-09T12:09:53.060Z",
+				"updatedAt": "2024-04-09T12:09:53.060Z",
+				"publishedAt": "2024-04-09T12:09:53.054Z",
+				"createdBy": null,
+				"updatedBy": null
+			}
+		},
+		"components.language": {
+			"1": {
+				"id": 1,
+				"title": "Arabic",
+				"color": "#bc9ae3",
+				"percent": 100
+			},
+			"2": {
+				"id": 2,
+				"title": "French",
+				"color": "#a7c813",
+				"percent": 85
+			},
+			"3": {
+				"id": 3,
+				"title": "English",
+				"color": "#2b7f8cc2",
+				"percent": 70
+			}
+		},
+		"components.hobby": {
+			"1": {
+				"id": 1,
+				"title": "Fishing",
+				"description": null
+			},
+			"2": {
+				"id": 2,
+				"title": "Codding",
+				"description": null
+			},
+			"3": {
+				"id": 3,
+				"title": "Billiards",
+				"description": null
+			}
+		},
+		"components.contact": {
+			"1": {
+				"id": 1,
+				"phone": "+212 602999043",
+				"email": "abdeljalil.abahbaz@gmail.com"
+			}
+		},
+		"components.links": {
+			"1": {
+				"id": 1,
+				"linkedin": "https://linkedin.com/in/abdeljalil-abahbaz\n",
+				"facebook": null,
+				"cv": null,
+				"github": "<a href=\"www.github.com/abdeljalil-abahbaz\">Github</a>"
+			}
+		},
+		"api::hero.hero": {
+			"1": {
+				"id": 1,
+				"first_name": "Abdeljalil",
+				"last_name": "Abahbaz",
+				"birth_day": "1991-06-06",
+				"location": "Marakech, Morocco",
+				"createdAt": "2024-03-29T12:39:19.571Z",
+				"updatedAt": "2024-04-04T12:24:56.484Z",
+				"publishedAt": "2024-03-29T13:25:42.808Z",
+				"about": "My passion for programming began in 2012 and required a radical change in my academic path to fully exploit it.\n\nFrom then on, I made every effort to excel in this field while enjoying the various projects I worked on.\n\nIn May 2015, I decided to become a web developer. I have held several successful positions as a \"full-stack\" web developer, which further solidified my determination to explore a wider range of industries, see different places, and conquer the world!",
+				"driving_licence": "B",
+				"function": "Full stack developer",
+				"links": 1,
+				"photo": 18,
+				"contact": 1,
+				"hobby": [
+					1,
+					2,
+					3
+				],
+				"language": [
+					1,
+					2,
+					3
+				],
+				"createdBy": null,
+				"updatedBy": null
+			}
+		},
+		"api::formation.formation": {
+			"1": {
+				"id": 1,
+				"title": "Bachelor's degree in Professional Computing and Business Management",
+				"date_start": "2011-06-01",
+				"date_end": "2015-06-01",
+				"institution": "FPT",
+				"description": "Professional diploma in Computer Science and Business Management. Specialized in web programming, my final project focused on developing a web application for municipal tax management. Using MySQL and PHP5 for backend functionalities, and incorporating JavaScript, CSS3, and HTML5 for the frontend, I successfully implemented a comprehensive solution.",
+				"createdAt": "2024-03-29T12:15:34.006Z",
+				"updatedAt": "2024-03-29T12:21:10.942Z",
+				"publishedAt": "2024-03-29T12:21:10.939Z",
+				"enabled": false,
+				"location": "Taroudant, Morocco",
+				"logo": [
+					5
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"2": {
+				"id": 2,
+				"title": "Specialized Technician in Computer Development",
+				"date_start": "2015-01-01",
+				"date_end": "2017-01-01",
+				"institution": "OFPPT",
+				"description": "I have studied and practiced various programming languages, including HTML, CSS, PHP, JavaScript, C#, and .NET. For my final training project, I developed a Windows application in C# aimed at managing the distribution of drinking water in zoos.",
+				"createdAt": "2024-03-29T12:23:51.501Z",
+				"updatedAt": "2024-03-29T12:23:54.964Z",
+				"publishedAt": "2024-03-29T12:23:54.961Z",
+				"enabled": false,
+				"location": "Agadir, Morocco",
+				"logo": [
+					6
+				],
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"3": {
+				"id": 3,
+				"title": "High school diploma in Life and Earth Sciences.",
+				"date_start": "2011-01-01",
+				"date_end": "2011-01-01",
+				"institution": "ECHABBI",
+				"description": null,
+				"createdAt": "2024-03-29T12:26:33.874Z",
+				"updatedAt": "2024-04-03T10:49:45.466Z",
+				"publishedAt": "2024-04-03T10:49:45.460Z",
+				"enabled": null,
+				"location": "Taroudant, Morocco",
+				"logo": null,
+				"createdBy": null,
+				"updatedBy": null
+			}
+		},
+		"api::experience.experience": {
+			"1": {
+				"id": 1,
+				"title": "Front-end developer",
+				"company": "EURO ERP",
+				"current": false,
+				"date_start": "2017-07-01",
+				"date_end": "2023-02-15",
+				"description": "- Used technologies: Javascript (ES6 and JQUERY), CSS3 (plus Bootstrap), HTML5, Node.js and 4D (back-end programming language). - I work within a team composed of front-end and back-end developers, the tasks that I often deal with are: Analysis and development of new projects. Project maintenance and bug fixing. Support and unblock other developers.",
+				"createdAt": "2024-03-29T11:56:08.191Z",
+				"updatedAt": "2024-03-29T11:56:16.200Z",
+				"publishedAt": "2024-03-29T11:56:16.196Z",
+				"location": "Agadir, Maroc",
+				"enabled": null,
+				"company_logo": 1,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"2": {
+				"id": 2,
+				"title": "Full stack developer",
+				"company": "VISEO",
+				"current": false,
+				"date_start": "2023-02-01",
+				"date_end": "2023-12-29",
+				"description": "Experienced professional, proficient in Salesforce Commerce Cloud (SFCC), ReactJs, Sass, ISML, Javascript, jQuery, CSS3, HTML5, Node.js, and Object-Oriented Programming (OOP). Collaborative team player with skills in Scrum methodologies, providing assistance to other developers, addressing client needs, and actively contributing to problem-solving. Adept at developing innovative features to enhance project functionality.",
+				"createdAt": "2024-03-29T12:02:09.346Z",
+				"updatedAt": "2024-03-29T12:02:11.232Z",
+				"publishedAt": "2024-03-29T12:02:11.230Z",
+				"location": "CASABLANCA, Maroc",
+				"enabled": null,
+				"company_logo": 2,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"3": {
+				"id": 3,
+				"title": "Internship: WordPress Developer",
+				"company": "VALA ORANGE",
+				"current": false,
+				"date_start": "2017-04-01",
+				"date_end": "2017-06-01",
+				"description": "Creation of a multi-vendor e-commerce website.",
+				"createdAt": "2024-03-29T12:06:22.401Z",
+				"updatedAt": "2024-03-29T12:06:23.891Z",
+				"publishedAt": "2024-03-29T12:06:23.888Z",
+				"location": "Agadir, Maroc",
+				"enabled": null,
+				"company_logo": 3,
+				"createdBy": null,
+				"updatedBy": null
+			},
+			"4": {
+				"id": 4,
+				"title": "Internship: Full-stack Developer",
+				"company": "Province De Taroudant",
+				"current": false,
+				"date_start": "2013-06-01",
+				"date_end": "2013-07-01",
+				"description": "Development of an elections management application",
+				"createdAt": "2024-03-29T12:11:00.218Z",
+				"updatedAt": "2024-03-29T12:11:07.077Z",
+				"publishedAt": "2024-03-29T12:11:07.074Z",
+				"location": "Taroudant, Maroc",
+				"enabled": null,
+				"company_logo": 4,
+				"createdBy": null,
+				"updatedBy": null
+			}
+		}
+	}
+}
