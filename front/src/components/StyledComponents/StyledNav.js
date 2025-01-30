@@ -34,18 +34,8 @@ const StyledNav = styled.div`
             align-items:center;
             justify-content: center;
             padding:15px;
-            h3{
-                color: #f1f3ce;
-                font-size: 56px;
-                border: 2px solid #f1f3ce;
-                border-radius: 50%;
-                height: 100px;
-                width: 100px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin: 0;
-                padding: 0;
+            img{
+                width: 160px;
             }
             p{
 

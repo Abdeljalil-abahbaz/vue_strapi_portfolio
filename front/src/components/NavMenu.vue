@@ -10,7 +10,7 @@
                 <i class="fa-solid fa-xmark"></i>
             </div>
             <li class="logo" :class={hide:!menuOpen}>
-                <h3>AB</h3>
+                <img src="../assets/hero-logo.png" alt="abdeljalil abahbaz: web developer" />
             </li>
             <li class='nav-items'>
                 <nav>
