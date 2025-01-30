@@ -1,0 +1,243 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "title": "Front-end developer",
+                "company": "EURO ERP",
+                "current": false,
+                "date_start": "2017-07-01",
+                "date_end": "2023-02-15",
+                "description": "- Used technologies: Javascript (ES6 and JQUERY), CSS3 (plus Bootstrap), HTML5, Node.js and 4D (back-end programming language). - I work within a team composed of front-end and back-end developers, the tasks that I often deal with are: Analysis and development of new projects. Project maintenance and bug fixing. Support and unblock other developers.",
+                "createdAt": "2024-03-29T11:56:08.191Z",
+                "updatedAt": "2024-03-29T11:56:16.200Z",
+                "publishedAt": "2024-03-29T11:56:16.196Z",
+                "location": "Agadir, Maroc",
+                "enabled": null,
+                "company_logo": {
+                    "data": {
+                        "id": 1,
+                        "attributes": {
+                            "name": "logo-euroerp.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 210,
+                            "height": 123,
+                            "formats": null,
+                            "hash": "logo_euroerp_0521d3fed9",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 3.73,
+                            "url": "/uploads/logo_euroerp_0521d3fed9.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T11:55:00.692Z",
+                            "updatedAt": "2024-03-29T11:55:00.692Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "title": "Full stack developer",
+                "company": "VISEO",
+                "current": false,
+                "date_start": "2023-02-01",
+                "date_end": "2023-12-29",
+                "description": "Experienced professional, proficient in Salesforce Commerce Cloud (SFCC), ReactJs, Sass, ISML, Javascript, jQuery, CSS3, HTML5, Node.js, and Object-Oriented Programming (OOP). Collaborative team player with skills in Scrum methodologies, providing assistance to other developers, addressing client needs, and actively contributing to problem-solving. Adept at developing innovative features to enhance project functionality.",
+                "createdAt": "2024-03-29T12:02:09.346Z",
+                "updatedAt": "2024-03-29T12:02:11.232Z",
+                "publishedAt": "2024-03-29T12:02:11.230Z",
+                "location": "CASABLANCA, Maroc",
+                "enabled": null,
+                "company_logo": {
+                    "data": {
+                        "id": 2,
+                        "attributes": {
+                            "name": "logo-viseo.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 1920,
+                            "height": 1080,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-viseo.png",
+                                    "hash": "thumbnail_logo_viseo_223ce15815",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 245,
+                                    "height": 138,
+                                    "size": 7.8,
+                                    "sizeInBytes": 7797,
+                                    "url": "/uploads/thumbnail_logo_viseo_223ce15815.png"
+                                },
+                                "large": {
+                                    "name": "large_logo-viseo.png",
+                                    "hash": "large_logo_viseo_223ce15815",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 1000,
+                                    "height": 563,
+                                    "size": 38.41,
+                                    "sizeInBytes": 38410,
+                                    "url": "/uploads/large_logo_viseo_223ce15815.png"
+                                },
+                                "medium": {
+                                    "name": "medium_logo-viseo.png",
+                                    "hash": "medium_logo_viseo_223ce15815",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 422,
+                                    "size": 27.26,
+                                    "sizeInBytes": 27260,
+                                    "url": "/uploads/medium_logo_viseo_223ce15815.png"
+                                },
+                                "small": {
+                                    "name": "small_logo-viseo.png",
+                                    "hash": "small_logo_viseo_223ce15815",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 281,
+                                    "size": 16.73,
+                                    "sizeInBytes": 16731,
+                                    "url": "/uploads/small_logo_viseo_223ce15815.png"
+                                }
+                            },
+                            "hash": "logo_viseo_223ce15815",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 13.34,
+                            "url": "/uploads/logo_viseo_223ce15815.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T11:58:34.916Z",
+                            "updatedAt": "2024-03-29T11:58:34.916Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "title": "Internship: WordPress Developer",
+                "company": "VALA ORANGE",
+                "current": false,
+                "date_start": "2017-04-01",
+                "date_end": "2017-06-01",
+                "description": "Creation of a multi-vendor e-commerce website.",
+                "createdAt": "2024-03-29T12:06:22.401Z",
+                "updatedAt": "2024-03-29T12:06:23.891Z",
+                "publishedAt": "2024-03-29T12:06:23.888Z",
+                "location": "Agadir, Maroc",
+                "enabled": null,
+                "company_logo": {
+                    "data": {
+                        "id": 3,
+                        "attributes": {
+                            "name": "logo-vala.jfif",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 180,
+                            "height": 180,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-vala.jfif",
+                                    "hash": "thumbnail_logo_vala_933b17669d",
+                                    "ext": ".jfif",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 5.03,
+                                    "sizeInBytes": 5029,
+                                    "url": "/uploads/thumbnail_logo_vala_933b17669d.jfif"
+                                }
+                            },
+                            "hash": "logo_vala_933b17669d",
+                            "ext": ".jfif",
+                            "mime": "image/jpeg",
+                            "size": 4.51,
+                            "url": "/uploads/logo_vala_933b17669d.jfif",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:05:37.988Z",
+                            "updatedAt": "2024-03-29T12:05:37.988Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "title": "Internship: Full-stack Developer",
+                "company": "Province De Taroudant",
+                "current": false,
+                "date_start": "2013-06-01",
+                "date_end": "2013-07-01",
+                "description": "Development of an elections management application",
+                "createdAt": "2024-03-29T12:11:00.218Z",
+                "updatedAt": "2024-03-29T12:11:07.077Z",
+                "publishedAt": "2024-03-29T12:11:07.074Z",
+                "location": "Taroudant, Maroc",
+                "enabled": null,
+                "company_logo": {
+                    "data": {
+                        "id": 4,
+                        "attributes": {
+                            "name": "logo-province.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 200,
+                            "height": 200,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-province.png",
+                                    "hash": "thumbnail_logo_province_39b62ae190",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 21.16,
+                                    "sizeInBytes": 21163,
+                                    "url": "/uploads/thumbnail_logo_province_39b62ae190.png"
+                                }
+                            },
+                            "hash": "logo_province_39b62ae190",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 9.42,
+                            "url": "/uploads/logo_province_39b62ae190.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:10:13.357Z",
+                            "updatedAt": "2024-03-29T12:10:13.357Z"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 4
+        }
+    }
+}

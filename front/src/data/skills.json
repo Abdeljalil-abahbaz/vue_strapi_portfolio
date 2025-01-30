@@ -1,0 +1,515 @@
+{
+    "data": [
+        {
+            "id": 7,
+            "attributes": {
+                "title": "php",
+                "percent": 75,
+                "createdAt": "2024-03-29T12:34:15.661Z",
+                "updatedAt": "2024-04-02T13:03:45.682Z",
+                "publishedAt": "2024-03-29T12:34:16.442Z",
+                "color": "#28a745",
+                "icon": "php",
+                "logo": {
+                    "data": {
+                        "id": 13,
+                        "attributes": {
+                            "name": "php.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 360,
+                            "height": 360,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_php.png",
+                                    "hash": "thumbnail_php_c2b182a16a",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 10.83,
+                                    "sizeInBytes": 10830,
+                                    "url": "/uploads/thumbnail_php_c2b182a16a.png"
+                                }
+                            },
+                            "hash": "php_c2b182a16a",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 4.42,
+                            "url": "/uploads/php_c2b182a16a.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:34:12.551Z",
+                            "updatedAt": "2024-03-29T12:34:12.551Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 1,
+            "attributes": {
+                "title": "ReactJs",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:27:57.021Z",
+                "updatedAt": "2024-04-02T13:04:01.093Z",
+                "publishedAt": "2024-03-29T12:27:58.210Z",
+                "color": "#20c997",
+                "icon": "react",
+                "logo": {
+                    "data": {
+                        "id": 7,
+                        "attributes": {
+                            "name": "logo-react.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 360,
+                            "height": 360,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-react.png",
+                                    "hash": "thumbnail_logo_react_012f31f181",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 14.4,
+                                    "sizeInBytes": 14404,
+                                    "url": "/uploads/thumbnail_logo_react_012f31f181.png"
+                                }
+                            },
+                            "hash": "logo_react_012f31f181",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 6.07,
+                            "url": "/uploads/logo_react_012f31f181.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:27:44.098Z",
+                            "updatedAt": "2024-03-29T12:27:44.098Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "title": "Javascript",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:28:56.254Z",
+                "updatedAt": "2024-04-02T13:05:28.195Z",
+                "publishedAt": "2024-03-29T12:28:58.580Z",
+                "color": "#ffc107",
+                "icon": "js",
+                "logo": {
+                    "data": {
+                        "id": 8,
+                        "attributes": {
+                            "name": "JavaScript-logo.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 800,
+                            "height": 800,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_JavaScript-logo.png",
+                                    "hash": "thumbnail_Java_Script_logo_086a406837",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 5.38,
+                                    "sizeInBytes": 5378,
+                                    "url": "/uploads/thumbnail_Java_Script_logo_086a406837.png"
+                                },
+                                "medium": {
+                                    "name": "medium_JavaScript-logo.png",
+                                    "hash": "medium_Java_Script_logo_086a406837",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 750,
+                                    "height": 750,
+                                    "size": 34.56,
+                                    "sizeInBytes": 34562,
+                                    "url": "/uploads/medium_Java_Script_logo_086a406837.png"
+                                },
+                                "small": {
+                                    "name": "small_JavaScript-logo.png",
+                                    "hash": "small_Java_Script_logo_086a406837",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 19.78,
+                                    "sizeInBytes": 19784,
+                                    "url": "/uploads/small_Java_Script_logo_086a406837.png"
+                                }
+                            },
+                            "hash": "Java_Script_logo_086a406837",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 6.96,
+                            "url": "/uploads/Java_Script_logo_086a406837.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:28:52.926Z",
+                            "updatedAt": "2024-03-29T12:28:52.926Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "title": "css3",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:30:21.773Z",
+                "updatedAt": "2024-04-02T13:02:40.865Z",
+                "publishedAt": "2024-03-29T12:30:25.501Z",
+                "color": "#e83e8c",
+                "icon": "css3",
+                "logo": {
+                    "data": {
+                        "id": 9,
+                        "attributes": {
+                            "name": "logo-css3.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 360,
+                            "height": 360,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-css3.png",
+                                    "hash": "thumbnail_logo_css3_622ca5c280",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 16.8,
+                                    "sizeInBytes": 16803,
+                                    "url": "/uploads/thumbnail_logo_css3_622ca5c280.png"
+                                }
+                            },
+                            "hash": "logo_css3_622ca5c280",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 7.99,
+                            "url": "/uploads/logo_css3_622ca5c280.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:30:18.056Z",
+                            "updatedAt": "2024-03-29T12:30:18.056Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "title": "jquery",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:31:26.557Z",
+                "updatedAt": "2024-04-02T13:03:13.812Z",
+                "publishedAt": "2024-03-29T12:31:27.394Z",
+                "color": "#106cae",
+                "icon": "check",
+                "logo": {
+                    "data": {
+                        "id": 10,
+                        "attributes": {
+                            "name": "logo-jquery.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 360,
+                            "height": 360,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-jquery.png",
+                                    "hash": "thumbnail_logo_jquery_6b7cd20571",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 15.17,
+                                    "sizeInBytes": 15167,
+                                    "url": "/uploads/thumbnail_logo_jquery_6b7cd20571.png"
+                                }
+                            },
+                            "hash": "logo_jquery_6b7cd20571",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 5.92,
+                            "url": "/uploads/logo_jquery_6b7cd20571.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:31:23.301Z",
+                            "updatedAt": "2024-03-29T12:31:23.301Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "title": "Bootstrap",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:32:25.128Z",
+                "updatedAt": "2024-04-02T13:01:03.775Z",
+                "publishedAt": "2024-03-29T12:32:26.030Z",
+                "color": "#6610f2",
+                "icon": "bootstrap",
+                "logo": {
+                    "data": {
+                        "id": 11,
+                        "attributes": {
+                            "name": "bootstrap-logo.svg",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 512,
+                            "height": 408,
+                            "formats": null,
+                            "hash": "bootstrap_logo_5da53d065b",
+                            "ext": ".svg",
+                            "mime": "image/svg+xml",
+                            "size": 2.05,
+                            "url": "/uploads/bootstrap_logo_5da53d065b.svg",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:32:21.783Z",
+                            "updatedAt": "2024-03-29T12:32:21.783Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "title": "4D",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:33:24.255Z",
+                "updatedAt": "2024-04-02T13:00:49.185Z",
+                "publishedAt": "2024-03-29T12:33:25.240Z",
+                "color": "#007bff",
+                "icon": "check",
+                "logo": {
+                    "data": {
+                        "id": 12,
+                        "attributes": {
+                            "name": "4d_logo.jfif",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 200,
+                            "height": 200,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_4d_logo.jfif",
+                                    "hash": "thumbnail_4d_logo_d84f7f2cea",
+                                    "ext": ".jfif",
+                                    "mime": "image/jpeg",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 2.89,
+                                    "sizeInBytes": 2892,
+                                    "url": "/uploads/thumbnail_4d_logo_d84f7f2cea.jfif"
+                                }
+                            },
+                            "hash": "4d_logo_d84f7f2cea",
+                            "ext": ".jfif",
+                            "mime": "image/jpeg",
+                            "size": 3.8,
+                            "url": "/uploads/4d_logo_d84f7f2cea.jfif",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:33:20.673Z",
+                            "updatedAt": "2024-03-29T12:33:20.673Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 8,
+            "attributes": {
+                "title": "Strapi Js",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:35:35.174Z",
+                "updatedAt": "2024-04-02T13:01:46.678Z",
+                "publishedAt": "2024-03-29T12:35:52.559Z",
+                "color": "#17a2b8",
+                "icon": "check",
+                "logo": {
+                    "data": {
+                        "id": 14,
+                        "attributes": {
+                            "name": "logo-strapi.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 498,
+                            "height": 498,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-strapi.png",
+                                    "hash": "thumbnail_logo_strapi_c4cb523926",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 6.08,
+                                    "sizeInBytes": 6081,
+                                    "url": "/uploads/thumbnail_logo_strapi_c4cb523926.png"
+                                }
+                            },
+                            "hash": "logo_strapi_c4cb523926",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 4.93,
+                            "url": "/uploads/logo_strapi_c4cb523926.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:35:31.432Z",
+                            "updatedAt": "2024-03-29T12:35:31.432Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 9,
+            "attributes": {
+                "title": "Vue Js",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:36:54.368Z",
+                "updatedAt": "2024-04-02T13:02:23.093Z",
+                "publishedAt": "2024-03-29T12:36:55.162Z",
+                "color": "#41b883",
+                "icon": "vuejs",
+                "logo": {
+                    "data": {
+                        "id": 15,
+                        "attributes": {
+                            "name": "logo-vue.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 300,
+                            "height": 259,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-vue.png",
+                                    "hash": "thumbnail_logo_vue_6e42b78845",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 181,
+                                    "height": 156,
+                                    "size": 7.56,
+                                    "sizeInBytes": 7563,
+                                    "url": "/uploads/thumbnail_logo_vue_6e42b78845.png"
+                                }
+                            },
+                            "hash": "logo_vue_6e42b78845",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 1.93,
+                            "url": "/uploads/logo_vue_6e42b78845.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:36:51.652Z",
+                            "updatedAt": "2024-03-29T12:36:51.652Z"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": 10,
+            "attributes": {
+                "title": "GraphQl",
+                "percent": 95,
+                "createdAt": "2024-03-29T12:38:43.768Z",
+                "updatedAt": "2024-04-02T13:01:20.291Z",
+                "publishedAt": "2024-03-29T12:38:44.768Z",
+                "color": "#fd7e14",
+                "icon": "check",
+                "logo": {
+                    "data": {
+                        "id": 16,
+                        "attributes": {
+                            "name": "logo-graphql.png",
+                            "alternativeText": null,
+                            "caption": null,
+                            "width": 512,
+                            "height": 512,
+                            "formats": {
+                                "thumbnail": {
+                                    "name": "thumbnail_logo-graphql.png",
+                                    "hash": "thumbnail_logo_graphql_d6ab4ef763",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 156,
+                                    "height": 156,
+                                    "size": 12.73,
+                                    "sizeInBytes": 12728,
+                                    "url": "/uploads/thumbnail_logo_graphql_d6ab4ef763.png"
+                                },
+                                "small": {
+                                    "name": "small_logo-graphql.png",
+                                    "hash": "small_logo_graphql_d6ab4ef763",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "path": null,
+                                    "width": 500,
+                                    "height": 500,
+                                    "size": 63.48,
+                                    "sizeInBytes": 63480,
+                                    "url": "/uploads/small_logo_graphql_d6ab4ef763.png"
+                                }
+                            },
+                            "hash": "logo_graphql_d6ab4ef763",
+                            "ext": ".png",
+                            "mime": "image/png",
+                            "size": 17.83,
+                            "url": "/uploads/logo_graphql_d6ab4ef763.png",
+                            "previewUrl": null,
+                            "provider": "local",
+                            "provider_metadata": null,
+                            "createdAt": "2024-03-29T12:38:40.750Z",
+                            "updatedAt": "2024-03-29T12:38:40.750Z"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 10
+        }
+    }
+}

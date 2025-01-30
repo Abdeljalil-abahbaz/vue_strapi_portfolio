@@ -18,8 +18,9 @@ export default createStore({
     async fetchData({ commit }, payload) {
       const {params, action} = payload
       try {
-        const response = await axios.get(`http://localhost:4000/api/${params}`);
-        commit('setData', {data:response.data.data, action});
+        //const response = await axios.get(`http://localhost:4000/api/${params}`);
+        const response = require(`../data/${action}.json`);
+        commit('setData', {data:response.data, action});
       } catch (error) {
         console.error('Error fetching data:', error);
         throw error;

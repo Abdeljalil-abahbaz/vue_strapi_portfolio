@@ -46,6 +46,7 @@ const StyleContactForm = styled.div`
             height:100%;
             position:absolute;
             width:0px;
+            top: 0;
             transition:width 0.5s ;
         }
         .contactme{

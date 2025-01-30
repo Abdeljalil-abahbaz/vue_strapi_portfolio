@@ -117,10 +117,10 @@ import idearealize from '@/assets/idea-realization.webp'
 .bloc{
   width:100%;
   background: #00293c;
-  margin-bottom: 50px;
 }
 .bloc:not(#home){
   padding-block: 50px;
+  margin-bottom: 50px;
 }
   
 .bloc:not(#home) > div{

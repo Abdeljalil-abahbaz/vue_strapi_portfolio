@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "title": "Bachelor's degree in Professional Computing and Business Management",
+                "date_start": "2011-06-01",
+                "date_end": "2015-06-01",
+                "institution": "FPT",
+                "description": "Professional diploma in Computer Science and Business Management. Specialized in web programming, my final project focused on developing a web application for municipal tax management. Using MySQL and PHP5 for backend functionalities, and incorporating JavaScript, CSS3, and HTML5 for the frontend, I successfully implemented a comprehensive solution.",
+                "createdAt": "2024-03-29T12:15:34.006Z",
+                "updatedAt": "2024-03-29T12:21:10.942Z",
+                "publishedAt": "2024-03-29T12:21:10.939Z",
+                "enabled": false,
+                "location": "Taroudant, Morocco",
+                "logo": {
+                    "data": [
+                        {
+                            "id": 5,
+                            "attributes": {
+                                "name": "logo-fpt.png",
+                                "alternativeText": null,
+                                "caption": null,
+                                "width": 512,
+                                "height": 127,
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_logo-fpt.png",
+                                        "hash": "thumbnail_logo_fpt_7ed56a01db",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "path": null,
+                                        "width": 245,
+                                        "height": 61,
+                                        "size": 22.92,
+                                        "sizeInBytes": 22920,
+                                        "url": "/uploads/thumbnail_logo_fpt_7ed56a01db.png"
+                                    },
+                                    "small": {
+                                        "name": "small_logo-fpt.png",
+                                        "hash": "small_logo_fpt_7ed56a01db",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "path": null,
+                                        "width": 500,
+                                        "height": 124,
+                                        "size": 64.8,
+                                        "sizeInBytes": 64804,
+                                        "url": "/uploads/small_logo_fpt_7ed56a01db.png"
+                                    }
+                                },
+                                "hash": "logo_fpt_7ed56a01db",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 15.97,
+                                "url": "/uploads/logo_fpt_7ed56a01db.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2024-03-29T12:21:02.589Z",
+                                "updatedAt": "2024-03-29T12:21:02.589Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "title": "Specialized Technician in Computer Development",
+                "date_start": "2015-01-01",
+                "date_end": "2017-01-01",
+                "institution": "OFPPT",
+                "description": "I have studied and practiced various programming languages, including HTML, CSS, PHP, JavaScript, C#, and .NET. For my final training project, I developed a Windows application in C# aimed at managing the distribution of drinking water in zoos.",
+                "createdAt": "2024-03-29T12:23:51.501Z",
+                "updatedAt": "2024-03-29T12:23:54.964Z",
+                "publishedAt": "2024-03-29T12:23:54.961Z",
+                "enabled": false,
+                "location": "Agadir, Morocco",
+                "logo": {
+                    "data": [
+                        {
+                            "id": 6,
+                            "attributes": {
+                                "name": "logo-OFPPT.png",
+                                "alternativeText": null,
+                                "caption": null,
+                                "width": 640,
+                                "height": 640,
+                                "formats": {
+                                    "thumbnail": {
+                                        "name": "thumbnail_logo-OFPPT.png",
+                                        "hash": "thumbnail_logo_OFPPT_f09ce811a4",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "path": null,
+                                        "width": 156,
+                                        "height": 156,
+                                        "size": 11.56,
+                                        "sizeInBytes": 11556,
+                                        "url": "/uploads/thumbnail_logo_OFPPT_f09ce811a4.png"
+                                    },
+                                    "small": {
+                                        "name": "small_logo-OFPPT.png",
+                                        "hash": "small_logo_OFPPT_f09ce811a4",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "path": null,
+                                        "width": 500,
+                                        "height": 500,
+                                        "size": 44.97,
+                                        "sizeInBytes": 44973,
+                                        "url": "/uploads/small_logo_OFPPT_f09ce811a4.png"
+                                    }
+                                },
+                                "hash": "logo_OFPPT_f09ce811a4",
+                                "ext": ".png",
+                                "mime": "image/png",
+                                "size": 9.02,
+                                "url": "/uploads/logo_OFPPT_f09ce811a4.png",
+                                "previewUrl": null,
+                                "provider": "local",
+                                "provider_metadata": null,
+                                "createdAt": "2024-03-29T12:23:44.450Z",
+                                "updatedAt": "2024-03-29T12:23:44.450Z"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "title": "High school diploma in Life and Earth Sciences.",
+                "date_start": "2011-01-01",
+                "date_end": "2011-01-01",
+                "institution": "ECHABBI",
+                "description": null,
+                "createdAt": "2024-03-29T12:26:33.874Z",
+                "updatedAt": "2024-04-03T10:49:45.466Z",
+                "publishedAt": "2024-04-03T10:49:45.460Z",
+                "enabled": null,
+                "location": "Taroudant, Morocco",
+                "logo": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 3
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "title": "Web Project Management",
+                "description": "Showcase website, corporate, event, e-commerce, intranet, mobile application",
+                "icon": "fa-regular fa-lightbulb",
+                "createdAt": "2024-04-09T10:14:16.411Z",
+                "updatedAt": "2024-04-09T11:38:19.132Z",
+                "publishedAt": "2024-04-09T10:53:12.879Z"
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "title": "Web Integration",
+                "description": "XHTML/CSS integrations respecting web standards.",
+                "icon": "fa-regular fa-pen-to-square",
+                "createdAt": "2024-04-09T10:16:21.113Z",
+                "updatedAt": "2024-04-09T11:40:00.497Z",
+                "publishedAt": "2024-04-09T10:53:12.879Z"
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "title": "Customized developements",
+                "description": "Adapted tools for your core business,\ncustomized applications & solutions.",
+                "icon": "fa fa-wrench",
+                "createdAt": "2024-04-09T10:18:58.512Z",
+                "updatedAt": "2024-04-09T10:53:00.461Z",
+                "publishedAt": "2024-04-09T10:53:00.459Z"
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "title": "Organic search engine optimization",
+                "description": "Semantic display of information,\nclean pages for optimal referencing",
+                "icon": "fa-regular fa-square-check",
+                "createdAt": "2024-04-09T10:20:37.579Z",
+                "updatedAt": "2024-04-09T11:40:40.927Z",
+                "publishedAt": "2024-04-09T10:53:12.879Z"
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "title": "Web Design",
+                "description": "Custom Website, Responsive Design, Modern and Sleek Design, Visual Storytelling Approach, User-Centric Approach",
+                "icon": "fa fa-pencil",
+                "createdAt": "2024-04-09T10:25:41.765Z",
+                "updatedAt": "2024-04-09T10:25:41.765Z",
+                "publishedAt": "2024-04-09T10:53:12.879Z"
+            }
+        },
+        {
+            "id": 6,
+            "attributes": {
+                "title": "DYNAMIC PAGE CONTENT",
+                "description": "Dynamic pages adapt and update automatically, offering real-time or personalized content for enhanced user engagement.",
+                "icon": "fa fa-refresh",
+                "createdAt": "2024-04-09T10:26:59.490Z",
+                "updatedAt": "2024-04-09T10:53:04.357Z",
+                "publishedAt": "2024-04-09T10:53:04.354Z"
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "title": "ADMINISTRATION INTERFACE",
+                "description": "Admin interface simplifies system management, enabling efficient control over content, settings, and user access",
+                "icon": "fa fa-cog",
+                "createdAt": "2024-04-09T10:29:32.131Z",
+                "updatedAt": "2024-04-09T10:52:55.864Z",
+                "publishedAt": "2024-04-09T10:52:55.860Z"
+            }
+        },
+        {
+            "id": 8,
+            "attributes": {
+                "title": "RESPONSIVE DESIGN",
+                "description": "Websites adapt to any device for a seamless user experience",
+                "icon": "fa fa-retweet",
+                "createdAt": "2024-04-09T10:31:12.914Z",
+                "updatedAt": "2024-04-09T10:31:12.914Z",
+                "publishedAt": "2024-04-09T10:53:12.879Z"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 8
+        }
+    }
+}

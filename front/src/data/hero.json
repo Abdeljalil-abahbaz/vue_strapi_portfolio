@@ -1,0 +1,139 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "first_name": "Abdeljalil",
+            "last_name": "Abahbaz",
+            "birth_day": "1991-06-06",
+            "location": "Marakech, Morocco",
+            "createdAt": "2024-03-29T12:39:19.571Z",
+            "updatedAt": "2024-04-04T12:24:56.484Z",
+            "publishedAt": "2024-03-29T13:25:42.808Z",
+            "about": "My passion for programming began in 2012 and required a radical change in my academic path to fully exploit it.\n\nFrom then on, I made every effort to excel in this field while enjoying the various projects I worked on.\n\nIn May 2015, I decided to become a web developer. I have held several successful positions as a \"full-stack\" web developer, which further solidified my determination to explore a wider range of industries, see different places, and conquer the world!",
+            "driving_licence": "B",
+            "function": "Full stack developer",
+            "links": {
+                "id": 1,
+                "linkedin": "https://linkedin.com/in/abdeljalil-abahbaz\n",
+                "facebook": null,
+                "cv": null,
+                "github": "<a href=\"www.github.com/abdeljalil-abahbaz\">Github</a>"
+            },
+            "photo": {
+                "data": {
+                    "id": 18,
+                    "attributes": {
+                        "name": "abdeljalil_abahbaz.jpeg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 867,
+                        "height": 1280,
+                        "formats": {
+                            "thumbnail": {
+                                "name": "thumbnail_abdeljalil_abahbaz.jpeg",
+                                "hash": "thumbnail_abdeljalil_abahbaz_97ea2bf6b4",
+                                "ext": ".jpeg",
+                                "mime": "image/jpeg",
+                                "path": null,
+                                "width": 105,
+                                "height": 156,
+                                "size": 5.5,
+                                "sizeInBytes": 5504,
+                                "url": "/uploads/thumbnail_abdeljalil_abahbaz_97ea2bf6b4.jpeg"
+                            },
+                            "small": {
+                                "name": "small_abdeljalil_abahbaz.jpeg",
+                                "hash": "small_abdeljalil_abahbaz_97ea2bf6b4",
+                                "ext": ".jpeg",
+                                "mime": "image/jpeg",
+                                "path": null,
+                                "width": 339,
+                                "height": 500,
+                                "size": 32.41,
+                                "sizeInBytes": 32407,
+                                "url": "/uploads/small_abdeljalil_abahbaz_97ea2bf6b4.jpeg"
+                            },
+                            "large": {
+                                "name": "large_abdeljalil_abahbaz.jpeg",
+                                "hash": "large_abdeljalil_abahbaz_97ea2bf6b4",
+                                "ext": ".jpeg",
+                                "mime": "image/jpeg",
+                                "path": null,
+                                "width": 677,
+                                "height": 1000,
+                                "size": 86,
+                                "sizeInBytes": 86001,
+                                "url": "/uploads/large_abdeljalil_abahbaz_97ea2bf6b4.jpeg"
+                            },
+                            "medium": {
+                                "name": "medium_abdeljalil_abahbaz.jpeg",
+                                "hash": "medium_abdeljalil_abahbaz_97ea2bf6b4",
+                                "ext": ".jpeg",
+                                "mime": "image/jpeg",
+                                "path": null,
+                                "width": 508,
+                                "height": 750,
+                                "size": 57.49,
+                                "sizeInBytes": 57489,
+                                "url": "/uploads/medium_abdeljalil_abahbaz_97ea2bf6b4.jpeg"
+                            }
+                        },
+                        "hash": "abdeljalil_abahbaz_97ea2bf6b4",
+                        "ext": ".jpeg",
+                        "mime": "image/jpeg",
+                        "size": 103.78,
+                        "url": "/uploads/abdeljalil_abahbaz_97ea2bf6b4.jpeg",
+                        "previewUrl": null,
+                        "provider": "local",
+                        "provider_metadata": null,
+                        "createdAt": "2024-04-01T14:15:52.932Z",
+                        "updatedAt": "2024-04-01T14:15:52.932Z"
+                    }
+                }
+            },
+            "contact": {
+                "id": 1,
+                "phone": "+212 602999043",
+                "email": "abdeljalil.abahbaz@gmail.com"
+            },
+            "hobby": [
+                {
+                    "id": 1,
+                    "title": "Fishing",
+                    "description": null
+                },
+                {
+                    "id": 2,
+                    "title": "Codding",
+                    "description": null
+                },
+                {
+                    "id": 3,
+                    "title": "Billiards",
+                    "description": null
+                }
+            ],
+            "language": [
+                {
+                    "id": 1,
+                    "title": "Arabic",
+                    "color": "#bc9ae3",
+                    "percent": 100
+                },
+                {
+                    "id": 2,
+                    "title": "French",
+                    "color": "#a7c813",
+                    "percent": 85
+                },
+                {
+                    "id": 3,
+                    "title": "English",
+                    "color": "#2b7f8cc2",
+                    "percent": 70
+                }
+            ]
+        }
+    },
+    "meta": {}
+}
